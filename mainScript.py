@@ -2,16 +2,17 @@ import csv
 import pandas as pd
 import numpy as np
 # import seaborn as sns
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 ### utilites
 # utility to generate the list of actions from the CDP data base with a given gcom ID
-def generateListOfActions(gcomId):
+# and data frame of actions
+def generateListOfActions(actions_df, gcomId):
     # pull out the relevant actions for the city from the data base,
     # reset the index
     city_actions_df = actions_df.loc[actions_df['Account number'] ==
-                                     citiesDict['AR0001']['cdp_id']].reset_index(drop=True)
+                                     citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
@@ -27,7 +28,8 @@ def generateListOfActions(gcomId):
 
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
-cities = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\gcom_cities.csv", encoding="utf-8")
+# cities = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\gcom_cities.csv", encoding="utf-8")
+cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
 
 # initialize dictionary with city id's as keys
 citiesDict = dict.fromkeys(list(cities['new_id']))
@@ -45,8 +47,10 @@ for index, row in cities.iterrows():
 ### prepare CDP cities for matching
 
 # read cdp actions into pandas dataframe
-actions_df = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\Actions_cdp_2012-2017.csv",
-                         encoding="utf-8")
+# actions_df = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\Actions_cdp_2012-2017.csv",
+                         # encoding="utf-8")
+actions_df = pd.read_csv(r"Actions_cdp_2012-2017.csv",
+                        encoding="utf-8")
 
 # change USA to United States of America
 actions_df = actions_df.replace(to_replace='USA', value='United States of America')
@@ -69,7 +73,7 @@ for entry in citiesDict.values():
         # update GCoM cities list entry with cdp Id found
         entry['cdp_id'] = cdpId.pop()
         # update list of actions with the matched city in cdp data base
-        entry['actions'] = generateListOfActions(entry['new_id'])
+        entry['actions'] = generateListOfActions(actions_df, entry['new_id'])
 
 print("# of matched cities: " + str(counter))
 # print(citiesDict['AL0004'])
