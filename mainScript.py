@@ -6,9 +6,9 @@ import numpy as np
 
 
 ### utilites
-# utility to generate the list of actions from the CDP data base with a given gcom ID
+# utility to find the list of actions from the CDP actions data base with a given gcom ID
 # and data frame of actions
-def generateListOfActions(actions_df, gcomId):
+def findListOfActions(actions_df, gcomId):
     # pull out the relevant actions for the city from the data base,
     # reset the index
     city_actions_df = actions_df.loc[actions_df['Account number'] ==
@@ -73,12 +73,12 @@ for entry in citiesDict.values():
         # update GCoM cities list entry with cdp Id found
         entry['cdp_id'] = cdpId.pop()
         # update list of actions with the matched city in cdp data base
-        entry['actions'] = generateListOfActions(actions_df, entry['new_id'])
+        entry['actions'] = findListOfActions(actions_df, entry['new_id'])
 
 print("# of matched cities: " + str(counter))
 # print(citiesDict['AL0004'])
 
-print(citiesDict['AU0010'])
+print(citiesDict['BR0003'])
 
 # # some fun seaborn plots
 # sns.lmplot(x='Population', y='GDP', data=cities)
