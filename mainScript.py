@@ -1,8 +1,9 @@
 import csv
 import pandas as pd
 import numpy as np
-# import seaborn as sns
-# import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 ### utilites
@@ -31,6 +32,16 @@ def findListOfActions(actions_df, gcomId):
 # cities = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\gcom_cities.csv", encoding="utf-8")
 cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
 
+# select cities with population > 2000, reset index:
+cities = cities.loc[cities['Population'] > 10000].reset_index(drop=True)
+
+# perform feature scaling on GDP and population:
+cities[["GDP", "Population"]] = StandardScaler().fit_transform(cities[["GDP", "Population"]].apply(np.log))
+
+print(cities[["GDP", "Population"]])
+
+
+
 # initialize dictionary with city id's as keys
 citiesDict = dict.fromkeys(list(cities['new_id']))
 
@@ -57,7 +68,7 @@ actions_df = actions_df.replace(to_replace='USA', value='United States of Americ
 
 # find set of city names used in the CDP actions file (stripping leading and trailing whitespace)
 cdp_cities = set(actions_df['City'].str.strip())
-print(cdp_cities)
+# print(cdp_cities)
 
 ### match GCoM cities to cdp action data base
 counter = 0
@@ -78,11 +89,16 @@ for entry in citiesDict.values():
 print("# of matched cities: " + str(counter))
 # print(citiesDict['AL0004'])
 
-print(citiesDict['BR0003'])
+# print(citiesDict['BR0003'])
 
 # # some fun seaborn plots
 # sns.lmplot(x='Population', y='GDP', data=cities)
 # fig, axes = plt.subplots()
 # sns.violinplot(data=cities[['HDD','CDD','TDD']], ax=axes)
 # sns.lmplot(x='HDI_country', y='Fuel_price', data=cities)
-# plt.show()
+x = pd.Series(cities["GDP"], name = 'Normalized log of GDP')
+sns.distplot(x)
+plt.show()
+y = pd.Series(cities["Population"], name = 'Normalized log of Population')
+sns.distplot(y)
+plt.show()
