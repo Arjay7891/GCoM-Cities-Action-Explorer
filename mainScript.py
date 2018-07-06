@@ -35,10 +35,14 @@ cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
 # select cities with population > 2000, reset index:
 cities = cities.loc[cities['Population'] > 10000].reset_index(drop=True)
 
+x = pd.Series(cities["GDP"], name = 'GDP')
+sns.distplot(x)
+plt.show()
+
 # perform feature scaling on GDP and population:
 cities[["GDP", "Population"]] = StandardScaler().fit_transform(cities[["GDP", "Population"]].apply(np.log))
 
-print(cities[["GDP", "Population"]])
+# print(cities[["GDP", "Population"]])
 
 
 
