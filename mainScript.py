@@ -13,7 +13,7 @@ def findListOfActions(actions_df, gcomId):
     # pull out the relevant actions for the city from the data base,
     # reset the index
     city_actions_df = actions_df.loc[actions_df['Account number'] ==
-                                     citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
+                          citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
@@ -40,7 +40,8 @@ sns.distplot(x)
 plt.show()
 
 # perform feature scaling on GDP and population:
-cities[["GDP", "Population"]] = StandardScaler().fit_transform(cities[["GDP", "Population"]].apply(np.log))
+cities[["GDP", "Population"]] = StandardScaler().fit_transform(cities[["GDP", 
+	"Population"]].apply(np.log))
 
 # print(cities[["GDP", "Population"]])
 
@@ -54,7 +55,8 @@ citiesDict = dict.fromkeys(list(cities['new_id']))
 # take keys from headers, add placeholders for actions and matches
 keys = list(cities) + ['cdp_id', 'actions', 'matches']
 for index, row in cities.iterrows():
-    # take value for each city dict from the row and add NA/empty list placeholders for cdp_id/actions and matches
+    # take value for each city dict from the row and add NA/empty 
+    # list placeholders for cdp_id/actions and matches
     values = list(row) + ['NA', [], []]
     # zip keys and values together to create the dict
     citiesDict[row[0]] = dict(zip(keys, values))
@@ -68,9 +70,11 @@ actions_df = pd.read_csv(r"Actions_cdp_2012-2017.csv",
                         encoding="utf-8")
 
 # change USA to United States of America
-actions_df = actions_df.replace(to_replace='USA', value='United States of America')
+actions_df = actions_df.replace(to_replace='USA', 
+	value='United States of America')
 
-# find set of city names used in the CDP actions file (stripping leading and trailing whitespace)
+# find set of city names used in the CDP actions file 
+# (stripping leading and trailing whitespace)
 cdp_cities = set(actions_df['City'].str.strip())
 # print(cdp_cities)
 
