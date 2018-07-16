@@ -4,10 +4,11 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
 import matplotlib.pyplot as plt
+import random
 
 ### parameters
 # population cutoff for cities:
-pop_cutoff = 100000
+pop_cutoff = 50000
 
 # similarity score cutoff for matching:
 sim_cutoff = 0.7
@@ -17,7 +18,11 @@ log_transform = ["GDP", "Population", "GDP_per_cap_method1"]
 
 # list of variables for feature scaling
 # (subtracting the mean and dividing by std deviation of distribution)
-feature_scaling = ["GDP", "Population", "GDP_per_cap_method1", "HDD", "CDD", "HDI_2", "Fuel_price"]
+feature_scaling = ["GDP", "Population", "GDP_per_cap_method1",
+                   "HDD", "CDD", "HDI_2", "Fuel_price"]
+
+# city to run diagnostic tests on:
+test_city = 'BR0003'
 
 ### utilites
 # utility to find the list of actions from the CDP actions data base with a given gcom ID
@@ -50,7 +55,8 @@ def distance(city1_dict, city2_dict):
         dist[1+i] = city1_dict[feature] - city2_dict[feature]
     return dist
 
-# utility to calculate similarity between two cities, given lists of their characteristics
+# utility to calculate similarity between two cities,
+# given lists of their characteristics
 # using numpy to calculate exponential function and euclidian distance between the
 # vectors of city characteristics
 def similarity(city1_dict, city2_dict):
@@ -59,7 +65,6 @@ def similarity(city1_dict, city2_dict):
 
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
-# cities = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\gcom_cities.csv", encoding="utf-8")
 cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
 
 # select cities with population > pop_cutoff, reset index:
@@ -102,8 +107,6 @@ for index, row in cities.iterrows():
 ### prepare CDP cities for matching
 
 # read cdp actions into pandas dataframe
-# actions_df = pd.read_csv(r"C:\Users\roman.hennig\Documents\Workspace\GCoMActionExplorer\Actions_cdp_2012-2017.csv",
-                         # encoding="utf-8")
 actions_df = pd.read_csv(r"Actions_cdp_2012-2017.csv",
                         encoding="utf-8")
 
@@ -148,16 +151,27 @@ for i, city1_id in enumerate(cities['new_id']):
             city1['matches'] += [{'city_id': city2_id, 'score': sim}]
             city2['matches'] += [{'city_id': city1_id, 'score': sim}]
 
-# calculate top ten matches for Salvador and print cities with match scores
-top_ten = sorted(citiesDict['BR0003']['matches'], key = lambda k: k['score'], reverse = True)[:10]
-print("Top Ten Matches for Salvador, Brazil:")
+# calculate top ten matches for test city and print cities with match scores
+top_ten = sorted(citiesDict[test_city]['matches'], key = lambda k: k['score'],
+                 reverse = True)[:10]
+print("Top Ten Matches for {}, {}:".format(citiesDict[test_city]['city'],
+                                           citiesDict[test_city]['country']))
 for entry in top_ten:
-    print(citiesDict[entry['city_id']]['city'] + ", " + citiesDict[entry['city_id']]['cc'] + ". Score: {:05.4f}".format(entry['score']))
+    print(citiesDict[entry['city_id']]['city'] + ", " + \
+          citiesDict[entry['city_id']]['country'] + \
+          ". Score: {:05.4f}".format(entry['score']))
     # # print all actions that matched cities have taken
     # print("City's actions: ")
     # for action in citiesDict[entry['city_id']]['actions']:
     #     print(action['reporting year'],":",action['category'],":",action['activity'])
 
+
+# # look at 10 random scores for other cities with test city:
+# print("Random Ten Scores for {}, {}:".format(citiesDict[test_city]['city'], citiesDict[test_city]['country']))
+# for i in range(10):
+#     random_match = random.choice(list(citiesDict))
+#     print(citiesDict[random_match]['city'] + ", " + citiesDict[random_match]['cc'] + ". Score: {:05.4f}".format(
+#         similarity(citiesDict[random_match], citiesDict[test_city])))
 
 # # some fun seaborn plots
 # sns.lmplot(x='Population', y='GDP', data=cities)
@@ -172,17 +186,18 @@ for entry in top_ten:
 # plt.show()
 
 
-# creating a visual for Salvadors similarity scores with other cities
+# creating a visual for test city's similarity scores with other cities
 sim_scores = list(range(len(cities.index)))
 for i, entry in enumerate(citiesDict.values()):
-    sim = similarity(citiesDict['BR0003'], entry)
+    sim = similarity(citiesDict[test_city], entry)
     sim_scores[i] = sim
     if sim > sim_cutoff:
         # print(entry['city'] + ", similarity: {}".format(sim))
-        entry['matches'] += ['BR0003']
+        entry['matches'] += [test_city]
 
 plt.plot(list(reversed(sorted(sim_scores)[:-1])))
 plt.ylabel('Similarity Score')
 plt.xlabel('Cities with population > {}'.format(pop_cutoff))
-plt.title('Matches for Salvador, Brazil')
+plt.title('Matches for {}, {}:'.format(citiesDict[test_city]['city'],
+                                       citiesDict[test_city]['country']))
 plt.show()
