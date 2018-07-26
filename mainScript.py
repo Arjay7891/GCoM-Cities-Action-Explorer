@@ -31,28 +31,29 @@ def findListOfActions(actions_df, gcomId):
     # pull out the relevant actions for the city from the data base,
     # reset the index
     city_actions_df = actions_df.loc[actions_df['Account number'] ==
-                          citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
+                                     citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
-    action_keys = ['reporting year', 'category', 'activity'] #, 'description']
+    action_keys = ['reporting year', 'category', 'activity']  # , 'description']
     for index, action in city_actions_df.iterrows():
-        action_values = [action['Reporting Year'], action['Sector'],
+        # translate CDP categories to reclassified ones
+        action_values = [action['Reporting Year'], categoryDict[action['Sector']],
                          action['Emissions reduction activity']]
-                         #, action['Action description']]
+        # , action['Action description']]
         # zip keys and values together to create the dict
         actionsList[index] = dict(zip(action_keys, action_values))
     return actionsList
 
 def distance(city1_dict, city2_dict):
     # result will be a list of distances in each characteristic
-    dist = list(range(1+len(feature_scaling)))
+    dist = list(range(1 + len(feature_scaling)))
     # first check whether cities are in same country (by country code cc)
     # if yes, this distance is 0. if no, 1
     dist[0] = int(city1_dict['cc'] != city2_dict['cc'])
     # distance for all numeric features
     for i, feature in enumerate(feature_scaling):
-        dist[1+i] = city1_dict[feature] - city2_dict[feature]
+        dist[1 + i] = city1_dict[feature] - city2_dict[feature]
     return dist
 
 # utility to calculate similarity between two cities,
@@ -61,8 +62,15 @@ def distance(city1_dict, city2_dict):
 # vectors of city characteristics
 def similarity(city1_dict, city2_dict):
     dist = distance(city1_dict, city2_dict)
-    return np.exp(- np.linalg.norm(dist)/len(dist))
+    return np.exp(- np.linalg.norm(dist) / len(dist))
 
+### set up categories
+# read category matching from file
+categories = pd.read_csv(r"cdp_sector_reclass.csv", encoding="utf-8").fillna('(blank)')
+# build dict
+categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass_sector'])))
+
+print(categoryDict)
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
 cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
@@ -108,11 +116,11 @@ for index, row in cities.iterrows():
 
 # read cdp actions into pandas dataframe
 actions_df = pd.read_csv(r"Actions_cdp_2012-2017.csv",
-                        encoding="utf-8")
+                         encoding="utf-8").fillna('(blank)')
 
 # change USA to United States of America
-actions_df = actions_df.replace(to_replace='USA', 
-	value='United States of America')
+actions_df = actions_df.replace(to_replace='USA',
+                                value='United States of America')
 
 # find set of city names used in the CDP actions file 
 # (stripping leading and trailing whitespace)
@@ -143,7 +151,7 @@ print("# of matched cities between GCOM and CDP: " + str(counter))
 
 # find matches for cities
 for i, city1_id in enumerate(cities['new_id']):
-    for j, city2_id in enumerate(cities['new_id'][i+1:]):
+    for j, city2_id in enumerate(cities['new_id'][i + 1:]):
         city1 = citiesDict[city1_id]
         city2 = citiesDict[city2_id]
         sim = similarity(city1, city2)
@@ -152,19 +160,18 @@ for i, city1_id in enumerate(cities['new_id']):
             city2['matches'] += [{'city_id': city1_id, 'score': sim}]
 
 # calculate top ten matches for test city and print cities with match scores
-top_ten = sorted(citiesDict[test_city]['matches'], key = lambda k: k['score'],
-                 reverse = True)[:10]
+top_ten = sorted(citiesDict[test_city]['matches'], key=lambda k: k['score'],
+                 reverse=True)[:10]
 print("Top Ten Matches for {}, {}:".format(citiesDict[test_city]['city'],
                                            citiesDict[test_city]['country']))
 for entry in top_ten:
     print(citiesDict[entry['city_id']]['city'] + ", " + \
           citiesDict[entry['city_id']]['country'] + \
           ". Score: {:05.4f}".format(entry['score']))
-    # # print all actions that matched cities have taken
-    # print("City's actions: ")
-    # for action in citiesDict[entry['city_id']]['actions']:
-    #     print(action['reporting year'],":",action['category'],":",action['activity'])
-
+    # print all actions that matched cities have taken
+    print("City's actions: ")
+    for action in citiesDict[entry['city_id']]['actions']:
+        print(action['reporting year'], ":", action['category'], ":", action['activity'])
 
 # # look at 10 random scores for other cities with test city:
 # print("Random Ten Scores for {}, {}:".format(citiesDict[test_city]['city'], citiesDict[test_city]['country']))
@@ -187,17 +194,17 @@ for entry in top_ten:
 
 
 # creating a visual for test city's similarity scores with other cities
-sim_scores = list(range(len(cities.index)))
-for i, entry in enumerate(citiesDict.values()):
-    sim = similarity(citiesDict[test_city], entry)
-    sim_scores[i] = sim
-    if sim > sim_cutoff:
-        # print(entry['city'] + ", similarity: {}".format(sim))
-        entry['matches'] += [test_city]
-
-plt.plot(list(reversed(sorted(sim_scores)[:-1])))
-plt.ylabel('Similarity Score')
-plt.xlabel('Cities with population > {}'.format(pop_cutoff))
-plt.title('Matches for {}, {}:'.format(citiesDict[test_city]['city'],
-                                       citiesDict[test_city]['country']))
-plt.show()
+# sim_scores = list(range(len(cities.index)))
+# for i, entry in enumerate(citiesDict.values()):
+#     sim = similarity(citiesDict[test_city], entry)
+#     sim_scores[i] = sim
+#     if sim > sim_cutoff:
+#         # print(entry['city'] + ", similarity: {}".format(sim))
+#         entry['matches'] += [test_city]
+#
+# plt.plot(list(reversed(sorted(sim_scores)[:-1])))
+# plt.ylabel('Similarity Score')
+# plt.xlabel('Cities with population > {}'.format(pop_cutoff))
+# plt.title('Matches for {}, {}:'.format(citiesDict[test_city]['city'],
+#                                        citiesDict[test_city]['country']))
+# plt.show()
