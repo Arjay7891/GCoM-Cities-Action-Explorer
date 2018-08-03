@@ -1,10 +1,12 @@
-import csv
+import json
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-import seaborn as sns
-import matplotlib.pyplot as plt
-import random
+
+## only needed for plots:
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# import random
 
 ### parameters
 # population cutoff for cities:
@@ -21,7 +23,8 @@ log_transform = ["GDP", "Population", "GDP_per_cap_method1"]
 feature_scaling = ["GDP", "Population", "GDP_per_cap_method1",
                    "HDD", "CDD", "HDI_2", "Fuel_price"]
 
-# city to run diagnostic tests on:
+# ID of city to run tests on
+# check gcom_cities file for id's
 test_city = 'BR0003'
 
 ### utilites
@@ -53,7 +56,7 @@ def distance(city1_dict, city2_dict):
     dist[0] = int(city1_dict['cc'] != city2_dict['cc'])
     # distance for all numeric features
     for i, feature in enumerate(feature_scaling):
-        dist[1 + i] = city1_dict[feature] - city2_dict[feature]
+        dist[1+i] = city1_dict[feature] - city2_dict[feature]
     return dist
 
 # utility to calculate similarity between two cities,
@@ -62,23 +65,21 @@ def distance(city1_dict, city2_dict):
 # vectors of city characteristics
 def similarity(city1_dict, city2_dict):
     dist = distance(city1_dict, city2_dict)
-    return np.exp(- np.linalg.norm(dist) / len(dist))
+    return np.exp(- np.linalg.norm(dist)/len(dist))
 
 ### set up categories
 # read category matching from file
-categories = pd.read_csv(r"cdp_sector_reclass.csv", encoding="utf-8").fillna('(blank)')
+categories = pd.read_csv(r"reclassification_files\cdp_sector_reclass.csv", encoding="utf-8").fillna('(blank)')
 # build dict
 categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass_sector'])))
 
 print(categoryDict)
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
-cities = pd.read_csv(r"gcom_cities.csv", encoding="utf-8")
+cities = pd.read_csv(r"input_data\gcom_cities.csv", encoding="utf-8")
 
 # select cities with population > pop_cutoff, reset index:
 cities = cities.loc[cities['Population'] > pop_cutoff].reset_index(drop=True)
-
-# print(len(cities.index))
 
 # x = pd.Series(cities["GDP"], name = 'GDP')
 # sns.distplot(x).set_title("Distribution of GDP of GCOM cities "
@@ -115,7 +116,7 @@ for index, row in cities.iterrows():
 ### prepare CDP cities for matching
 
 # read cdp actions into pandas dataframe
-actions_df = pd.read_csv(r"Actions_cdp_2012-2017.csv",
+actions_df = pd.read_csv(r"input_data\Actions_cdp_2012-2017.csv",
                          encoding="utf-8").fillna('(blank)')
 
 # change USA to United States of America
@@ -159,19 +160,29 @@ for i, city1_id in enumerate(cities['new_id']):
             city1['matches'] += [{'city_id': city2_id, 'score': sim}]
             city2['matches'] += [{'city_id': city1_id, 'score': sim}]
 
-# calculate top ten matches for test city and print cities with match scores
-top_ten = sorted(citiesDict[test_city]['matches'], key=lambda k: k['score'],
-                 reverse=True)[:10]
-print("Top Ten Matches for {}, {}:".format(citiesDict[test_city]['city'],
-                                           citiesDict[test_city]['country']))
-for entry in top_ten:
-    print(citiesDict[entry['city_id']]['city'] + ", " + \
-          citiesDict[entry['city_id']]['country'] + \
-          ". Score: {:05.4f}".format(entry['score']))
-    # print all actions that matched cities have taken
-    print("City's actions: ")
-    for action in citiesDict[entry['city_id']]['actions']:
-        print(action['reporting year'], ":", action['category'], ":", action['activity'])
+# save data in json file
+with open('output\cities_data.json', 'w') as f:
+    json.dump(citiesDict, f) #, sort_keys=True, indent=4)
+
+# get info for only cities above test city's population to keep the file smaller:
+bigCitiesDict = {k: citiesDict[k] for k in citiesDict.keys() if
+                 citiesDict[k]['Population'] >= citiesDict[test_city]['Population']}
+with open(r'output\big_cities_data.json', 'w') as f:
+    json.dump(bigCitiesDict, f, sort_keys=True, indent=4)
+
+# # calculate top ten matches for test city and print cities with match scores
+# top_ten = sorted(citiesDict[test_city]['matches'], key=lambda k: k['score'],
+#                  reverse=True)[:10]
+# print("Top Ten Matches for {}, {}:".format(citiesDict[test_city]['city'],
+#                                            citiesDict[test_city]['country']))
+# for entry in top_ten:
+#     print(citiesDict[entry['city_id']]['city'] + ", " + \
+#           citiesDict[entry['city_id']]['country'] + \
+#           ". Score: {:05.4f}".format(entry['score']))
+#     # print all actions that matched cities have taken
+#     print("City's actions: ")
+#     for action in citiesDict[entry['city_id']]['actions']:
+#         print(action['reporting year'], ":", action['category'], ":", action['activity'])
 
 # # look at 10 random scores for other cities with test city:
 # print("Random Ten Scores for {}, {}:".format(citiesDict[test_city]['city'], citiesDict[test_city]['country']))
