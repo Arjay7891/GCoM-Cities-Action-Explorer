@@ -76,7 +76,7 @@ categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass
 print(categoryDict)
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
-cities = pd.read_csv(r"input_data\gcom_cities.csv", encoding="utf-8")
+cities = pd.read_csv(r"input_data\gcom_cities.csv", encoding="utf-8").fillna('(blank)')
 
 # select cities with population > pop_cutoff, reset index:
 cities = cities.loc[cities['Population'] > pop_cutoff].reset_index(drop=True)
