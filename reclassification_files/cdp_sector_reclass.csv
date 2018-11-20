@@ -1,86 +1,87 @@
-﻿CDP Sector,reclass_sector
+﻿Column1,Column2
+CDP Sector,reclass_sector
 Buildings,Buildings
-Community-Scale Development,Sustainable communities & urban land use
-Education,Education
-Education ,Education
+Community-Scale Development,Urban Land Use & Sustainable Communities
+Education,Education and Behavior Change
+Education ,Education and Behavior Change
 Energy Demand in Buildings,Buildings
 Energy Demand in Buildings ,Buildings
 Energy Supply,Clean Energy
 Energy Supply ,Clean Energy
-Finance,Finance and Economic Development
-Finance ,Finance and Economic Development
-Finance and Economic Development,Finance and Economic Development
-Food,Food and Agriculture
-Food ,Food and Agriculture
-Food and Agriculture,Food and Agriculture
+Finance,Finance
+Finance ,Finance
+Finance and Economic Development,Economic Development
+Food,Food and Urban Agriculture
+Food ,Food and Urban Agriculture
+Food and Agriculture,Food and Urban Agriculture
 Mass Transit,Transportation
 Other,
 Other:,
-Other: Advocating green campus,
-Other: Behavior changing,
-Other: Bike Share,
-"Other: Carbon emission reporting, SMEs",
-Other: Carbon point system,
-Other: Chicago Climate Action Plan,
-Other: Citizen involvement,
-Other: Climate protection agreements,
-Other: Database,
-Other: Developing a common measurement methodology,
-Other: eco friendly management,
-Other: Encouraging community to use public transportation,
-Other: Encouraging green purchase,
-Other: Encouraging to use solar water heater,
-Other: Energy and resource integrated project,
-Other: Energy Demand in Buildings,
-Other: Energy Efficiency and Behavior Change ,
-Other: Energy efficiency Equipment,
-Other: Energy efficiency for housing,
-Other: Environmental care recognition,
-Other: Extending cycle way,
-Other: Green building autonomous regulations,
-Other: Green roof,
-Other: greening,
-Other: Hamburg Climate Action Plan,
-Other: http://www.burlingtonvt.gov/CAP/Our-Plan/Reduction-Goals/,
-Other: Implementing GHG emissions target management system,
-Other: Improve air quality,
-Other: improve biking infrastructure,
-Other: Industrial GHG emission reduction and control autonomous regulations,
-Other: Infrastructure for electrical vehicles,
-Other: Inovcity Project,
-Other: Kaohsiung light rail,
-Other: Live Green Toronto Community Grant Program,
-"Other: Medidas relacionadas con el ahorro energético en los sectores industrial, residencial y de la movilidad, fundamentalmente, que incluyen todas las actuaciones descritas en el cuadro en este sentido",
-Other: Obligatin of making planning for enterprises,
-Other: Orientation centres,
-Other: Pilot project „electro mobility“,
-Other: Promote the energy service company (ESCO),
-Other: promoting cool roofs,
-Other: Promoting Green and Energy-saving Citizen Lifestyle,
-Other: Public awareness campaigns,
-Other: Public transportation transferring privilege and shuttle buses,
-Other: Redesigning of the city structure into a low-energy-consuming city,
-Other: Set up more public bike rental system,
-Other: Social inclusion and environmental quality subsidies,
-Other: Solar community project,
-Other: Solar panel subsidy project,
-Other: Standard ,
-Other: Subway network extension,
-Other: Sustainability Plan Development,
-Other: Sustainable Chicago 2015,
-Other: sustainable Consumption,
-Other: To set up more battery exchange or recharge stations for electric scooters,
-Other: Transport,
-Other: Transport ,
-Other: Transport - Charging station and parking for EV,
-Other: Transport - City bicycles,
-Other: Transport - Hydrogen infrastructure,
-Other: Transport - increasing public transport frequency,
-Other: Transport - Road Pricing,
-Other: transport plan,
-Other: Tree Planting,
-Other: water infrastructure,
-Other: Wetland conservation,
+Other: Advocating green campus,Education and Behavior Change
+Other: Behavior changing,Education and Behavior Change
+Other: Bike Share,Transportation
+"Other: Carbon emission reporting, SMEs",Inventories & Public Procurement
+Other: Carbon point system,Inventories & Public Procurement
+Other: Chicago Climate Action Plan,Climate Action Plans
+Other: Citizen involvement,Education and Behavior Change
+Other: Climate protection agreements,Adaptation
+Other: Database,Inventories & Public Procurement
+Other: Developing a common measurement methodology,Inventories & Public Procurement
+Other: eco friendly management,Education and Behavior Change
+Other: Encouraging community to use public transportation,Education and Behavior Change
+Other: Encouraging green purchase,Education and Behavior Change
+Other: Encouraging to use solar water heater,Education and Behavior Change
+Other: Energy and resource integrated project,Clean Energy
+Other: Energy Demand in Buildings,Buildings
+Other: Energy Efficiency and Behavior Change ,Education and Behavior Change
+Other: Energy efficiency Equipment,Buildings
+Other: Energy efficiency for housing,Buildings
+Other: Environmental care recognition,Education and Behavior Change
+Other: Extending cycle way,Transportation
+Other: Green building autonomous regulations,Buildings
+Other: Green roof,Buildings
+Other: greening,Buildings
+Other: Hamburg Climate Action Plan,Climate Action Plans
+Other: http://www.burlingtonvt.gov/CAP/Our-Plan/Reduction-Goals/,Climate Action Plans
+Other: Implementing GHG emissions target management system,Inventories & Public Procurement
+Other: Improve air quality,Transportation
+Other: improve biking infrastructure,Transportation
+Other: Industrial GHG emission reduction and control autonomous regulations,Clean Energy
+Other: Infrastructure for electrical vehicles,Transportation
+Other: Inovcity Project,Transportation
+Other: Kaohsiung light rail,Transportation
+Other: Live Green Toronto Community Grant Program,Climate Action Plans
+"Other: Medidas relacionadas con el ahorro energético en los sectores industrial, residencial y de la movilidad, fundamentalmente, que incluyen todas las actuaciones descritas en el cuadro en este sentido",Urban Land Use & Sustainable Communities
+Other: Obligatin of making planning for enterprises,Education and Behavior Change
+Other: Orientation centres,Education and Behavior Change
+Other: Pilot project „electro mobility“,Transportation
+Other: Promote the energy service company (ESCO),Education and Behavior Change
+Other: promoting cool roofs,Education and Behavior Change
+Other: Promoting Green and Energy-saving Citizen Lifestyle,Education and Behavior Change
+Other: Public awareness campaigns,Education and Behavior Change
+Other: Public transportation transferring privilege and shuttle buses,Transportation
+Other: Redesigning of the city structure into a low-energy-consuming city,Urban Land Use & Sustainable Communities
+Other: Set up more public bike rental system,Transportation
+Other: Social inclusion and environmental quality subsidies,Urban Land Use & Sustainable Communities
+Other: Solar community project,Clean Energy
+Other: Solar panel subsidy project,Clean Energy
+Other: Standard ,Climate Action Plans
+Other: Subway network extension,Transportation
+Other: Sustainability Plan Development,Climate Action Plans
+Other: Sustainable Chicago 2015,Climate Action Plans
+Other: sustainable Consumption,Education and Behavior Change
+Other: To set up more battery exchange or recharge stations for electric scooters,Transportation
+Other: Transport,Transportation
+Other: Transport ,Transportation
+Other: Transport - Charging station and parking for EV,Transportation
+Other: Transport - City bicycles,Transportation
+Other: Transport - Hydrogen infrastructure,Transportation
+Other: Transport - increasing public transport frequency,Transportation
+Other: Transport - Road Pricing,Transportation
+Other: transport plan,Transportation
+Other: Tree Planting,Urban Land Use & Sustainable Communities
+Other: water infrastructure,Water
+Other: Wetland conservation,Urban Land Use & Sustainable Communities
 Outdoor Lighting,Buildings
 Outdoor Lighting ,Buildings
 Private Transport,Transportation
@@ -88,13 +89,11 @@ Public Procurement,Climate action tracking and public procurement
 Public procurement ,Climate action tracking and public procurement
 Transport,Transportation
 Transport ,Transportation
-Urban Land Use,Sustainable communities & urban land use
-Urban Land Use ,Sustainable communities & urban land use
+Urban Land Use,Urban Land Use & Sustainable Communities
+Urban Land Use ,Urban Land Use & Sustainable Communities
 Waste,Waste
 Waste ,Waste
 Water,Water
 Water ,Water
-(blank),Transport
-(blank),Waste
-(blank),Water
-(blank),
+0,0
+(blank),unknown

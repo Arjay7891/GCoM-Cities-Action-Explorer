@@ -30,19 +30,48 @@ test_city = 'BR0003'
 ### utilites
 # utility to find the list of actions from the CDP actions data base with a given gcom ID
 # and data frame of actions
-def findListOfActions(actions_df, gcomId):
+def findListOfCDPActions(actions_df, gcomId):
     # pull out the relevant actions for the city from the data base,
     # reset the index
+    # TO-DO: better name matching than simple complete string match
     city_actions_df = actions_df.loc[actions_df['Account number'] ==
                                      citiesDict[gcomId]['cdp_id']].reset_index(drop=True)
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
-    action_keys = ['reporting year', 'category', 'activity']  # , 'description']
+    action_keys = ['description quality', 'description', 'reporting year', 'category', 'activity']
     for index, action in city_actions_df.iterrows():
         # translate CDP categories to reclassified ones
-        action_values = [action['Reporting Year'], categoryDict[action['Sector']],
-                         action['Emissions reduction activity']]
+        descr = str(action['Action description'])
+        description_quality = ""
+        if len(descr) < 31:
+            description_quality = "self-reported, low"
+        elif len(descr) < 101:
+            description_quality = "self-reported, medium"
+        else:
+            description_quality = "self-reported, high"
+        action_values = [description_quality, descr,  action['Reporting Year'],
+                         categoryDict[action['Sector']], action['Emissions reduction activity']]
+        # , action['Action description']]
+        # zip keys and values together to create the dict
+        actionsList[index] = dict(zip(action_keys, action_values))
+    return actionsList
+
+def findListOfCuratedActions(actions_df, gcomId):
+    city_actions_df = actions_df.loc[actions_df['GCOM ID'] ==
+                                     gcomId].reset_index(drop=True)
+    # create placeholder list of actions
+    actionsList = [{} for x in range(len(city_actions_df))]
+    # make key list for each action dict
+    action_keys = ['description quality', 'description', 'reporting year', 'category',
+                   'activity', 'source', 'link']
+    for index, action in city_actions_df.iterrows():
+        # translate CDP categories to reclassified ones
+        descr = str(action['Description'])
+        description_quality = "curated"
+        action_values = [description_quality, descr,  action['Year'],
+                         action['Category'], action['Action Name'],
+                         action['Source(s)'], action['Link(s)']]
         # , action['Action description']]
         # zip keys and values together to create the dict
         actionsList[index] = dict(zip(action_keys, action_values))
@@ -69,7 +98,7 @@ def similarity(city1_dict, city2_dict):
 
 ### set up categories
 # read category matching from file
-categories = pd.read_csv(r"reclassification_files\cdp_sector_reclass.csv", encoding="utf-8").fillna('(blank)')
+categories = pd.read_excel(r"reclassification_files\cdp_sector_reclass.xlsx", encoding='latin-1').fillna('(blank)')
 # build dict
 categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass_sector'])))
 
@@ -116,26 +145,31 @@ for index, row in cities.iterrows():
 ### prepare CDP cities for matching
 
 # read cdp actions into pandas dataframe
-actions_df = pd.read_csv(r"input_data\Actions_cdp_2012-2017.csv",
+actions_df_cdp = pd.read_csv(r"input_data\Actions_cdp_2012-2017.csv",
                          encoding="utf-8").fillna('(blank)')
 
 # change USA to United States of America
-actions_df = actions_df.replace(to_replace='USA',
+actions_df_cdp = actions_df_cdp.replace(to_replace='USA',
                                 value='United States of America')
 
 # find set of city names used in the CDP actions file 
 # (stripping leading and trailing whitespace)
-cdp_cities = set(actions_df['City'].str.strip())
+cdp_cities = set(actions_df_cdp['City'].str.strip())
 # print(cdp_cities)
 
-### match GCoM cities to cdp action data base
+### read in curated list of actions
+
+actions_df_curated = pd.read_excel(r"input_data\Actions_db2.xlsx",
+                         encoding="utf-8").fillna('(blank)')
+
+### match GCoM cities to cdp action data base and curated actions
 counter = 0
 for entry in citiesDict.values():
     gcomCityName = entry['city']
     # match GCOM city to cdp_cities if possible and add list of cdp actions
     if gcomCityName in cdp_cities:
         counter += 1
-        cdpId = set(actions_df.loc[actions_df['City'].str.strip() ==
+        cdpId = set(actions_df_cdp.loc[actions_df_cdp['City'].str.strip() ==
                                    gcomCityName]['Account number'])
         ### TO-DO:
         # some city names appear multiple times.
@@ -146,7 +180,9 @@ for entry in citiesDict.values():
         # update GCoM cities list entry with cdp Id found
         entry['cdp_id'] = cdpId.pop()
         # update list of actions with the matched city in cdp data base
-        entry['actions'] = findListOfActions(actions_df, entry['new_id'])
+        entry['actions'] = findListOfCDPActions(actions_df_cdp, entry['new_id']) \
+                           + findListOfCuratedActions(actions_df_curated, entry['new_id'])
+
 
 print("# of matched cities between GCOM and CDP: " + str(counter))
 
