@@ -39,7 +39,8 @@ def findListOfCDPActions(actions_df, gcomId):
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
-    action_keys = ['description quality', 'description', 'reporting year', 'category', 'activity']
+    action_keys = ['description quality', 'description', 'reporting year',
+                   'category', 'activity', 'source', 'link']
     for index, action in city_actions_df.iterrows():
         # translate CDP categories to reclassified ones
         descr = str(action['Action description'])
@@ -51,15 +52,15 @@ def findListOfCDPActions(actions_df, gcomId):
         else:
             description_quality = "self-reported, high"
         action_values = [description_quality, descr,  action['Reporting Year'],
-                         categoryDict[action['Sector']], action['Emissions reduction activity']]
+                         categoryDict[action['Sector']],
+                         action['Emissions reduction activity'],
+                         'CDP', 'https://www.cdp.net/en']
         # , action['Action description']]
         # zip keys and values together to create the dict
         actionsList[index] = dict(zip(action_keys, action_values))
     return actionsList
 
-def findListOfCuratedActions(actions_df, gcomId):
-    city_actions_df = actions_df.loc[actions_df['GCOM ID'] ==
-                                     gcomId].reset_index(drop=True)
+def findListOfCuratedActions(city_actions_df):
     # create placeholder list of actions
     actionsList = [{} for x in range(len(city_actions_df))]
     # make key list for each action dict
@@ -76,6 +77,16 @@ def findListOfCuratedActions(actions_df, gcomId):
         # zip keys and values together to create the dict
         actionsList[index] = dict(zip(action_keys, action_values))
     return actionsList
+
+def findListOfCuratedActionsGCOM(actions_df, gcomId):
+    city_actions_df = actions_df.loc[actions_df['GCOM ID'] ==
+                                     gcomId].reset_index(drop=True)
+    return findListOfCuratedActions(city_actions_df)
+
+def findListOfCuratedActionsNonGCOM(actions_df, cityName):
+    city_actions_df = actions_df.loc[actions_df['City'].str.strip() ==
+                                     cityName.str.strip()].reset_index(drop=True)
+    return findListOfCuratedActions(city_actions_df)
 
 def distance(city1_dict, city2_dict):
     # result will be a list of distances in each characteristic
@@ -101,8 +112,8 @@ def similarity(city1_dict, city2_dict):
 categories = pd.read_excel(r"reclassification_files\cdp_sector_reclass.xlsx", encoding='latin-1').fillna('(blank)')
 # build dict
 categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass_sector'])))
+# print(categoryDict)
 
-print(categoryDict)
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
 cities = pd.read_csv(r"input_data\gcom_cities.csv", encoding="utf-8").fillna('(blank)')
@@ -158,9 +169,17 @@ cdp_cities = set(actions_df_cdp['City'].str.strip())
 # print(cdp_cities)
 
 ### read in curated list of actions
-
 actions_df_curated = pd.read_excel(r"input_data\Actions_db2.xlsx",
                          encoding="utf-8").fillna('(blank)')
+
+# find actions of cities that aren't in the GCOM cities
+non_GCOM_cities = list(set(actions_df_curated.loc[actions_df_curated['GCOM ID'] == '(blank)']['City'].str.strip()))
+
+# create dictionary for non GCOM cities
+non_GCOM_dict = dict.fromkeys(non_GCOM_cities)
+
+for a_city in non_GCOM_cities:
+    non_GCOM_dict[a_city] = {'actions': findListOfCuratedActionsNonGCOM(actions_df_curated, a_city)}
 
 ### match GCoM cities to cdp action data base and curated actions
 counter = 0
@@ -181,7 +200,7 @@ for entry in citiesDict.values():
         entry['cdp_id'] = cdpId.pop()
         # update list of actions with the matched city in cdp data base
         entry['actions'] = findListOfCDPActions(actions_df_cdp, entry['new_id']) \
-                           + findListOfCuratedActions(actions_df_curated, entry['new_id'])
+                           + findListOfCuratedActionsGCOM(actions_df_curated, entry['new_id'])
 
 
 print("# of matched cities between GCOM and CDP: " + str(counter))
@@ -196,15 +215,32 @@ for i, city1_id in enumerate(cities['new_id']):
             city1['matches'] += [{'city_id': city2_id, 'score': sim}]
             city2['matches'] += [{'city_id': city1_id, 'score': sim}]
 
-# save data in json file
-with open('output\cities_data.json', 'w') as f:
-    json.dump(citiesDict, f) #, sort_keys=True, indent=4)
-
 # get info for only cities above test city's population to keep the file smaller:
 bigCitiesDict = {k: citiesDict[k] for k in citiesDict.keys() if
                  citiesDict[k]['Population'] >= citiesDict[test_city]['Population']}
+# add non GCOM cities
+citiesDict['non-GCOM_cities'] = non_GCOM_dict
+bigCitiesDict['non-GCOM_cities'] = non_GCOM_dict
+
+# save data in json files
+with open('output\cities_data.json', 'w') as f:
+    json.dump(citiesDict, f) #, sort_keys=True, indent=4)
+
 with open(r'output\big_cities_data.json', 'w') as f:
     json.dump(bigCitiesDict, f, sort_keys=True, indent=4)
+
+### build general resources data base
+general_resources = pd.read_excel(r"input_data\Guides for Action Explorer.xlsx", encoding='latin-1').fillna('(blank)')
+general_resource_keys = list(general_resources)
+general_resource_dict = {}
+for index, row in general_resources.iterrows():
+    general_resource_values = list(row)
+    general_resource_dict[index] = dict(zip(general_resource_keys, general_resource_values))
+
+# print(general_resource_dict)
+with open(r'output\general_resources.json', 'w') as f:
+    json.dump(general_resource_dict, f, sort_keys=True, indent=4)
+
 
 # # calculate top ten matches for test city and print cities with match scores
 # top_ten = sorted(citiesDict[test_city]['matches'], key=lambda k: k['score'],
