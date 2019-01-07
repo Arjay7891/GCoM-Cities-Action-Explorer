@@ -71,7 +71,7 @@
             },
             {
                 "city_id": "LR0001",
-                "score": 0.8202496204438932
+                "score": 0.820249620443893
             },
             {
                 "city_id": "MW0001",
@@ -3348,7 +3348,7 @@
             },
             {
                 "city_id": "BR0006",
-                "score": 0.8091510113247626
+                "score": 0.8091510113247627
             },
             {
                 "city_id": "BR0008",
@@ -3416,7 +3416,7 @@
             },
             {
                 "city_id": "ID0003",
-                "score": 0.7184306495142868
+                "score": 0.7184306495142867
             },
             {
                 "city_id": "JO0001",
@@ -3448,7 +3448,7 @@
             },
             {
                 "city_id": "TR0002",
-                "score": 0.7176544634012267
+                "score": 0.7176544634012266
             },
             {
                 "city_id": "TR0004",
@@ -3703,7 +3703,7 @@
             },
             {
                 "city_id": "BR0009",
-                "score": 0.7306830568352477
+                "score": 0.7306830568352478
             },
             {
                 "city_id": "BR0010",
@@ -3731,7 +3731,7 @@
             },
             {
                 "city_id": "BR0017",
-                "score": 0.7246017878516862
+                "score": 0.7246017878516863
             },
             {
                 "city_id": "BR0018",
@@ -3743,7 +3743,7 @@
             },
             {
                 "city_id": "BR0023",
-                "score": 0.7528240576585692
+                "score": 0.7528240576585691
             },
             {
                 "city_id": "BR0024",
@@ -3755,15 +3755,15 @@
             },
             {
                 "city_id": "BR0032",
-                "score": 0.7315296649071773
+                "score": 0.7315296649071772
             },
             {
                 "city_id": "CM0001",
-                "score": 0.71361076767165
+                "score": 0.7136107676716499
             },
             {
                 "city_id": "CN0001",
-                "score": 0.7619007370674323
+                "score": 0.7619007370674322
             },
             {
                 "city_id": "CO0002",
@@ -3807,7 +3807,7 @@
             },
             {
                 "city_id": "ID0005",
-                "score": 0.7125475505048194
+                "score": 0.7125475505048193
             },
             {
                 "city_id": "ID0006",
@@ -5359,7 +5359,7 @@
             },
             {
                 "activity": "Tower Renewal Program",
-                "category": "Clean Energy",
+                "category": "Buildings",
                 "description": "With the Tower Renewal Program, Toronto is engaging residents in the renovation of its older apartment building stock through a suite of complementary initiatives that drive energy efficiency, social cohesion, and economic development. A key initiative under the program is Sustainable Towers, Engaging People (STEP), which supports property owners and building managers in benchmarking and incrementally improving the energy, water, waste, safety, operations, and community-building performance of their buildings. So far, the city has benchmarked 230 buildings and created customized action plans for 120, while STEP participants have realized energy savings of 5% to 20%.",
                 "description quality": "curated",
                 "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.toronto.ca/community-people/get-involved/community/tower-renewal/; http://towerrenewal.com/tower-renewal-in-2017/",
@@ -5440,7 +5440,7 @@
             },
             {
                 "activity": "Sustainable Neighbourhood Retrofit Action Plan (SNAP)",
-                "category": "Urban Land Use & Sustainable Communities",
+                "category": "Buildings",
                 "description": "Toronto\u2019s Sustainable Neighbourhood Retrofit Action Plan (SNAP) is a locally tailored home retrofit program reaching both homeowners and renters with building upgrades and community enhancement initiatives. Assisting residents from planning to implementation of projects, SNAP simultaneously targets energy conservation, urban forest enhancement, water conservation, and stormwater management, as well as local food production in order to create more resilient neighborhoods. In the Black Creek neighborhood, a community of 25,000 people which was home to one of SNAP\u2019s six pilot projects, positive results have already been observed; 88 % of participants have undertaken at least one retrofit action since the program launched in 2012. One SNAP program underway in Black Creek, Harvest the Rain, has distributed 217 rain barrels to residents in an effort to protect against basement flooding while using the collected water to support vegetable gardens and tree planting. City-wide, SNAP measures are expected to reduce stormwater runoff and pollutants from private lots by 30 %, expand urban forest cover by 8 %, and reduce electricity use by 10 %.",
                 "description quality": "curated",
                 "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://trca.ca/conservation/sustainable-neighbourhoods/;https://www.c40.org/case_studies/cities100-toronto-neighborhood-renewal-boosts-climate-resilience",
@@ -5523,7 +5523,7 @@
             },
             {
                 "city_id": "DE0004",
-                "score": 0.7385905321602059
+                "score": 0.7385905321602058
             },
             {
                 "city_id": "DE0005",
@@ -5531,7 +5531,7 @@
             },
             {
                 "city_id": "DE0006",
-                "score": 0.7574897678990523
+                "score": 0.7574897678990522
             },
             {
                 "city_id": "DE0008",
@@ -5731,7 +5731,7 @@
             },
             {
                 "city_id": "US0007",
-                "score": 0.7883892187575815
+                "score": 0.7883892187575814
             },
             {
                 "city_id": "US0010",
@@ -5751,7 +5751,7 @@
             },
             {
                 "city_id": "US0016",
-                "score": 0.7200293807468876
+                "score": 0.7200293807468877
             },
             {
                 "city_id": "US0017",
@@ -5850,7 +5850,7 @@
             },
             {
                 "city_id": "PH0001",
-                "score": 0.7431871492010711
+                "score": 0.7431871492010712
             },
             {
                 "city_id": "PK0001",
@@ -5983,7 +5983,7 @@
             },
             {
                 "city_id": "TZ0001",
-                "score": 0.8564949174281061
+                "score": 0.856494917428106
             },
             {
                 "city_id": "UG0001",
@@ -6105,7 +6105,7 @@
             },
             {
                 "city_id": "BR0003",
-                "score": 0.71361076767165
+                "score": 0.7136107676716499
             },
             {
                 "city_id": "BR0006",
@@ -6129,7 +6129,7 @@
             },
             {
                 "city_id": "BR0031",
-                "score": 0.7124440156007947
+                "score": 0.7124440156007946
             },
             {
                 "city_id": "CD0001",
@@ -6193,7 +6193,7 @@
             },
             {
                 "city_id": "IN0002",
-                "score": 0.7723736947319689
+                "score": 0.7723736947319688
             },
             {
                 "city_id": "IN0003",
@@ -6904,7 +6904,7 @@
             },
             {
                 "city_id": "BR0003",
-                "score": 0.7619007370674323
+                "score": 0.7619007370674322
             },
             {
                 "city_id": "BR0004",
@@ -6980,7 +6980,7 @@
             },
             {
                 "city_id": "TW0006",
-                "score": 0.7459673717251577
+                "score": 0.7459673717251578
             },
             {
                 "city_id": "US0002",
@@ -7016,7 +7016,7 @@
             },
             {
                 "city_id": "ZA0004",
-                "score": 0.7690810741962492
+                "score": 0.769081074196249
             }
         ],
         "new_id": "CN0001",
@@ -7609,7 +7609,7 @@
         "matches": [
             {
                 "city_id": "BR0007",
-                "score": 0.7547521313044542
+                "score": 0.7547521313044543
             },
             {
                 "city_id": "CL0001",
@@ -7672,7 +7672,7 @@
             },
             {
                 "city_id": "AR0002",
-                "score": 0.7664496491270426
+                "score": 0.7664496491270425
             },
             {
                 "city_id": "AR0003",
@@ -7792,7 +7792,7 @@
             },
             {
                 "city_id": "ES0001",
-                "score": 0.7175953760491431
+                "score": 0.717595376049143
             },
             {
                 "city_id": "ES0003",
@@ -7840,7 +7840,7 @@
             },
             {
                 "city_id": "ID0005",
-                "score": 0.7527170118154085
+                "score": 0.7527170118154084
             },
             {
                 "city_id": "IN0001",
@@ -7976,7 +7976,7 @@
             },
             {
                 "city_id": "US0005",
-                "score": 0.7131214731776807
+                "score": 0.7131214731776808
             },
             {
                 "city_id": "US0009",
@@ -7992,7 +7992,7 @@
             },
             {
                 "city_id": "UY0001",
-                "score": 0.7345976627463745
+                "score": 0.7345976627463746
             },
             {
                 "city_id": "VE0001",
@@ -8426,6 +8426,15 @@
                 "link": "https://www.citylab.com/transportation/2017/03/berlin-bike-superhighways/518691/; https://www.curbed.com/2017/3/7/14845498/berlin-approves-13-new-bike-superhighways",
                 "reporting year": 2017,
                 "source": "CityLab"
+            },
+            {
+                "activity": "Introducing Trucks Powered by Compressed Natural Gas",
+                "category": "Transportation",
+                "description": "At the start of the implementation period, there was a significant lack of information and a general fear associated with CNG engines. There were also widespread doubts regarding the performance of CNG vehicles compared to conventional cars. The measures therefore comprised both awareness-raising campaigns and financial incentives in order to achieve a critical mass of CNG vehicles in the short term. The aim was to introduce 100 CNG-powered lorries in different weight categories (from 1.3 t to 12 t) for inner-city freight distribution in Berlin, achieving Euro IV/Enhanced environmentally friendly vehicle (EEV) standard.",
+                "description quality": "curated",
+                "link": "https://civitas.eu/measure/introducing-trucks-powered-compressed-natural-gas",
+                "reporting year": 2011,
+                "source": "CIVITAS"
             }
         ],
         "cc": "DE",
@@ -8453,7 +8462,7 @@
             },
             {
                 "city_id": "XX0030",
-                "score": 0.7416438940742993
+                "score": 0.7416438940742992
             },
             {
                 "city_id": "BG0001",
@@ -8473,7 +8482,7 @@
             },
             {
                 "city_id": "CA0006",
-                "score": 0.7148633853420537
+                "score": 0.7148633853420536
             },
             {
                 "city_id": "CA0007",
@@ -8517,7 +8526,7 @@
             },
             {
                 "city_id": "DE0011",
-                "score": 0.7703878782941931
+                "score": 0.770387878294193
             },
             {
                 "city_id": "DE0012",
@@ -8569,7 +8578,7 @@
             },
             {
                 "city_id": "FR0002",
-                "score": 0.7675049731147053
+                "score": 0.7675049731147054
             },
             {
                 "city_id": "FR0003",
@@ -8773,7 +8782,7 @@
             },
             {
                 "city_id": "TR0004",
-                "score": 0.7193801979342536
+                "score": 0.7193801979342537
             },
             {
                 "city_id": "TR0005",
@@ -9012,7 +9021,7 @@
             },
             {
                 "city_id": "FR0003",
-                "score": 0.7185037642452744
+                "score": 0.7185037642452745
             },
             {
                 "city_id": "FR0006",
@@ -9036,7 +9045,7 @@
             },
             {
                 "city_id": "HN0001",
-                "score": 0.7151708148255743
+                "score": 0.7151708148255744
             },
             {
                 "city_id": "HR0001",
@@ -9068,7 +9077,7 @@
             },
             {
                 "city_id": "IT0003",
-                "score": 0.7584441988814419
+                "score": 0.7584441988814418
             },
             {
                 "city_id": "IT0004",
@@ -9088,7 +9097,7 @@
             },
             {
                 "city_id": "JP0002",
-                "score": 0.712746338174582
+                "score": 0.7127463381745819
             },
             {
                 "city_id": "JP0003",
@@ -9208,11 +9217,11 @@
             },
             {
                 "city_id": "US0034",
-                "score": 0.7236729466826226
+                "score": 0.7236729466826227
             },
             {
                 "city_id": "UY0001",
-                "score": 0.7518102668664687
+                "score": 0.7518102668664688
             },
             {
                 "city_id": "UY0002",
@@ -10080,7 +10089,7 @@
             },
             {
                 "city_id": "BR0004",
-                "score": 0.796812525921218
+                "score": 0.7968125259212181
             },
             {
                 "city_id": "BR0005",
@@ -10124,7 +10133,7 @@
             },
             {
                 "city_id": "CO0002",
-                "score": 0.7175953760491431
+                "score": 0.717595376049143
             },
             {
                 "city_id": "DE0001",
@@ -10180,7 +10189,7 @@
             },
             {
                 "city_id": "FR0002",
-                "score": 0.7196247193327924
+                "score": 0.7196247193327923
             },
             {
                 "city_id": "FR0003",
@@ -10220,7 +10229,7 @@
             },
             {
                 "city_id": "HR0001",
-                "score": 0.718836395520242
+                "score": 0.7188363955202419
             },
             {
                 "city_id": "HU0001",
@@ -10260,7 +10269,7 @@
             },
             {
                 "city_id": "JP0001",
-                "score": 0.7332498037469433
+                "score": 0.7332498037469432
             },
             {
                 "city_id": "JP0002",
@@ -10376,11 +10385,11 @@
             },
             {
                 "city_id": "US0004",
-                "score": 0.70947103449489
+                "score": 0.7094710344948901
             },
             {
                 "city_id": "US0005",
-                "score": 0.7652719134156343
+                "score": 0.7652719134156342
             },
             {
                 "city_id": "US0006",
@@ -10392,7 +10401,7 @@
             },
             {
                 "city_id": "US0009",
-                "score": 0.7485211005555181
+                "score": 0.7485211005555182
             },
             {
                 "city_id": "US0010",
@@ -10448,11 +10457,11 @@
             },
             {
                 "city_id": "US0024",
-                "score": 0.753801387371785
+                "score": 0.7538013873717849
             },
             {
                 "city_id": "US0025",
-                "score": 0.7498350398314922
+                "score": 0.7498350398314921
             },
             {
                 "city_id": "US0027",
@@ -10671,11 +10680,11 @@
         "matches": [
             {
                 "city_id": "ID0003",
-                "score": 0.7437320040927131
+                "score": 0.7437320040927132
             },
             {
                 "city_id": "ID0005",
-                "score": 0.7107031534992491
+                "score": 0.710703153499249
             },
             {
                 "city_id": "KE0001",
@@ -11549,7 +11558,7 @@
             },
             {
                 "city_id": "MX0001",
-                "score": 0.7617148488786247
+                "score": 0.7617148488786248
             },
             {
                 "city_id": "RU0001",
@@ -11678,7 +11687,7 @@
             },
             {
                 "activity": "Low-cost housing",
-                "category": "Urban Land Use & Sustainable Communities",
+                "category": "Adaptation",
                 "description": "To cope with increased rates of flooding and to protect its poorest citizens, Indonesia\u2019s bustling capital city provides low-cost housing to the 400,000 citizens who reside along the city\u2019s waterfront in informal housing. With the land free of settlement, the city will revitalize the nearby water bodies, increase the water retention ability of the land, and boost reservoir capacity, thus reducing the risks of floods while protecting citizens. By the end of 2014, Jakarta had already built more than 14,000 low-cost apartment units, 13% of its goal of 52,656, which it hopes to accomplish by 2017. Units come furnished and are rent-free for the first six months, after which families are responsible for paying $22 per month. City officials consulted with residents face-to-face and involved them in the planning process to ensure that relocation is dignified. The new housing units will provide residents with safer, cleaner housing that will improve the livelihoods of tenants and alleviate environmental stress on the land they formerly occupied.",
                 "description quality": "curated",
                 "link": "https://www.c40.org/case_studies/cities100-jakarta-low-cost-housing-protects-people-and-land",
@@ -11811,7 +11820,7 @@
             },
             {
                 "city_id": "TR0004",
-                "score": 0.7612860228182209
+                "score": 0.7612860228182208
             },
             {
                 "city_id": "TW0001",
@@ -11819,7 +11828,7 @@
             },
             {
                 "city_id": "TW0002",
-                "score": 0.7491162641632249
+                "score": 0.7491162641632247
             },
             {
                 "city_id": "TW0005",
@@ -11855,7 +11864,7 @@
             },
             {
                 "city_id": "ZA0006",
-                "score": 0.7259859643112357
+                "score": 0.7259859643112359
             }
         ],
         "new_id": "ID0001",
@@ -12034,7 +12043,7 @@
                 "source": "100 Resilient Cities"
             },
             {
-                "activity": "\u00a0Solar-charged Electric Vehicles\u00a0",
+                "activity": "Solar-charged Electric Vehicles\u00a0",
                 "category": "Transportation",
                 "description": "More than 1 million cars are registered in Amman, and a significant portion of these cars are older, second-hand vehicles that do not meet today\u2019s fuel efficiency and emissions standards. To begin to clean the city\u2019s vehicle fleet, Amman launched a pilot project \u2013 in collaboration with public and private partners \u2013 that promotes a transition to solar-charged electric vehicles (EVs). In 2015, the pilot included 150 EVs and 10 charging stations that are free to use. The project also comes with an advanced information and monitoring system, which will contribute to a positive user experience",
                 "description quality": "curated",
@@ -12064,7 +12073,7 @@
             },
             {
                 "city_id": "AR0003",
-                "score": 0.7646121849908266
+                "score": 0.7646121849908267
             },
             {
                 "city_id": "AT0001",
@@ -12108,7 +12117,7 @@
             },
             {
                 "city_id": "BR0012",
-                "score": 0.7161050194213466
+                "score": 0.7161050194213465
             },
             {
                 "city_id": "BR0014",
@@ -12180,7 +12189,7 @@
             },
             {
                 "city_id": "ES0005",
-                "score": 0.7618824639109842
+                "score": 0.7618824639109844
             },
             {
                 "city_id": "ES0007",
@@ -12192,7 +12201,7 @@
             },
             {
                 "city_id": "ES0009",
-                "score": 0.7231470125522826
+                "score": 0.7231470125522828
             },
             {
                 "city_id": "ES0012",
@@ -12220,7 +12229,7 @@
             },
             {
                 "city_id": "GB0003",
-                "score": 0.729442656713559
+                "score": 0.7294426567135591
             },
             {
                 "city_id": "GB0004",
@@ -12228,7 +12237,7 @@
             },
             {
                 "city_id": "GR0001",
-                "score": 0.7295704980183313
+                "score": 0.7295704980183314
             },
             {
                 "city_id": "HN0001",
@@ -12252,7 +12261,7 @@
             },
             {
                 "city_id": "ID0005",
-                "score": 0.7418290451250378
+                "score": 0.7418290451250379
             },
             {
                 "city_id": "IT0001",
@@ -12264,7 +12273,7 @@
             },
             {
                 "city_id": "IT0003",
-                "score": 0.7648897944160754
+                "score": 0.7648897944160753
             },
             {
                 "city_id": "IT0004",
@@ -12308,7 +12317,7 @@
             },
             {
                 "city_id": "KR0004",
-                "score": 0.7465293285589893
+                "score": 0.7465293285589892
             },
             {
                 "city_id": "KR0005",
@@ -12356,7 +12365,7 @@
             },
             {
                 "city_id": "NP0001",
-                "score": 0.745773529965698
+                "score": 0.7457735299656979
             },
             {
                 "city_id": "PT0001",
@@ -12468,7 +12477,7 @@
             },
             {
                 "city_id": "XX0002",
-                "score": 0.7048458669696267
+                "score": 0.7048458669696266
             }
         ],
         "new_id": "JO0001",
@@ -13440,7 +13449,7 @@
             },
             {
                 "activity": "Carbon Reduction Reporting for Small and Medium Entities (CRR)\u00a0",
-                "category": "Water",
+                "category": "Buildings",
                 "description": "The Carbon Reduction Reporting for Small and Medium Entities (CRR) mandates the annual reporting of CO2 emissions for existing small and medium-sized facilities (i.e. single building or group of buildings) in the Tokyo metropolitan. These facilities comprise some 60% of total CO2 emissions in Tokyo\u2019s industrial and commercial sectors. In addition to the mandatory component, CRR has succeeded in attracting a large number of voluntary submissions from facilities keen to monitor annual emissions and compare to industry benchmarks.\u00a0",
                 "description quality": "curated",
                 "link": "https://www.c40.org/case_studies/urban-efficiency-2-carbon-reduction-reporting-program",
@@ -13478,7 +13487,7 @@
             },
             {
                 "city_id": "ES0001",
-                "score": 0.7332498037469433
+                "score": 0.7332498037469432
             },
             {
                 "city_id": "GB0001",
@@ -13506,7 +13515,7 @@
             },
             {
                 "city_id": "TR0001",
-                "score": 0.7940818597759197
+                "score": 0.7940818597759198
             },
             {
                 "city_id": "TR0002",
@@ -14642,7 +14651,7 @@
             },
             {
                 "city_id": "DE0003",
-                "score": 0.7258752170811561
+                "score": 0.7258752170811562
             },
             {
                 "city_id": "DE0004",
@@ -14654,7 +14663,7 @@
             },
             {
                 "city_id": "DO0001",
-                "score": 0.712746338174582
+                "score": 0.7127463381745819
             },
             {
                 "city_id": "EC0002",
@@ -14834,7 +14843,7 @@
             },
             {
                 "city_id": "TW0005",
-                "score": 0.7172908763218904
+                "score": 0.7172908763218905
             },
             {
                 "city_id": "TW0006",
@@ -14914,7 +14923,7 @@
             },
             {
                 "city_id": "US0021",
-                "score": 0.7595892310423128
+                "score": 0.7595892310423127
             },
             {
                 "city_id": "US0023",
@@ -19435,7 +19444,7 @@
             },
             {
                 "city_id": "HU0001",
-                "score": 0.7043011021896738
+                "score": 0.7043011021896737
             },
             {
                 "city_id": "IT0001",
@@ -19479,7 +19488,7 @@
             },
             {
                 "city_id": "TR0002",
-                "score": 0.7101560824158654
+                "score": 0.7101560824158653
             },
             {
                 "city_id": "TR0003",
@@ -20202,7 +20211,7 @@
             },
             {
                 "city_id": "GB0001",
-                "score": 0.7617148488786247
+                "score": 0.7617148488786248
             },
             {
                 "city_id": "GB0002",
@@ -20210,7 +20219,7 @@
             },
             {
                 "city_id": "HU0001",
-                "score": 0.7017331961856167
+                "score": 0.7017331961856168
             },
             {
                 "city_id": "ID0001",
@@ -20254,7 +20263,7 @@
             },
             {
                 "city_id": "MX0002",
-                "score": 0.735787288391581
+                "score": 0.7357872883915811
             },
             {
                 "city_id": "TR0001",
@@ -20278,7 +20287,7 @@
             },
             {
                 "city_id": "US0001",
-                "score": 0.7437412550271847
+                "score": 0.7437412550271846
             },
             {
                 "city_id": "US0002",
@@ -20286,7 +20295,7 @@
             },
             {
                 "city_id": "US0005",
-                "score": 0.7097722510290104
+                "score": 0.7097722510290103
             },
             {
                 "city_id": "US0006",
@@ -20302,11 +20311,11 @@
             },
             {
                 "city_id": "US0011",
-                "score": 0.7093335507571142
+                "score": 0.7093335507571144
             },
             {
                 "city_id": "VE0001",
-                "score": 0.8108692991843317
+                "score": 0.8108692991843316
             },
             {
                 "city_id": "ZA0001",
@@ -21644,7 +21653,7 @@
             },
             {
                 "city_id": "CO0003",
-                "score": 0.7243442450146036
+                "score": 0.7243442450146035
             },
             {
                 "city_id": "ID0001",
@@ -21897,11 +21906,11 @@
             },
             {
                 "city_id": "BR0023",
-                "score": 0.7091581407870208
+                "score": 0.7091581407870207
             },
             {
                 "city_id": "BR0024",
-                "score": 0.7173686447986779
+                "score": 0.7173686447986778
             },
             {
                 "city_id": "BR0031",
@@ -21913,7 +21922,7 @@
             },
             {
                 "city_id": "CD0001",
-                "score": 0.7431871492010711
+                "score": 0.7431871492010712
             },
             {
                 "city_id": "CI0001",
@@ -22029,11 +22038,11 @@
             },
             {
                 "city_id": "PH0003",
-                "score": 0.7295163673168885
+                "score": 0.7295163673168886
             },
             {
                 "city_id": "PH0004",
-                "score": 0.7833093898416813
+                "score": 0.7833093898416812
             },
             {
                 "city_id": "PH0005",
@@ -22982,7 +22991,7 @@
             },
             {
                 "city_id": "JP0001",
-                "score": 0.7940818597759197
+                "score": 0.7940818597759198
             },
             {
                 "city_id": "JP0002",
@@ -23026,7 +23035,7 @@
             },
             {
                 "city_id": "US0005",
-                "score": 0.7024632735739585
+                "score": 0.7024632735739587
             },
             {
                 "city_id": "US0006",
@@ -23121,7 +23130,7 @@
             },
             {
                 "city_id": "BR0002",
-                "score": 0.7176544634012267
+                "score": 0.7176544634012266
             },
             {
                 "city_id": "BR0004",
@@ -23145,7 +23154,7 @@
             },
             {
                 "city_id": "BR0015",
-                "score": 0.7041657230842837
+                "score": 0.7041657230842838
             },
             {
                 "city_id": "CA0001",
@@ -23153,7 +23162,7 @@
             },
             {
                 "city_id": "CA0002",
-                "score": 0.721853944828823
+                "score": 0.7218539448288229
             },
             {
                 "city_id": "CA0008",
@@ -23217,7 +23226,7 @@
             },
             {
                 "city_id": "ES0009",
-                "score": 0.7116588947969699
+                "score": 0.71165889479697
             },
             {
                 "city_id": "FR0001",
@@ -23261,7 +23270,7 @@
             },
             {
                 "city_id": "HN0001",
-                "score": 0.7171287147587648
+                "score": 0.7171287147587649
             },
             {
                 "city_id": "HR0001",
@@ -23329,7 +23338,7 @@
             },
             {
                 "city_id": "KR0001",
-                "score": 0.7101560824158654
+                "score": 0.7101560824158653
             },
             {
                 "city_id": "KR0002",
@@ -23357,7 +23366,7 @@
             },
             {
                 "city_id": "MX0002",
-                "score": 0.7531542524030074
+                "score": 0.7531542524030073
             },
             {
                 "city_id": "MX0003",
@@ -23385,7 +23394,7 @@
             },
             {
                 "city_id": "PT0001",
-                "score": 0.7311465128477145
+                "score": 0.7311465128477144
             },
             {
                 "city_id": "TR0001",
@@ -23401,7 +23410,7 @@
             },
             {
                 "city_id": "TR0005",
-                "score": 0.7745291927590459
+                "score": 0.774529192759046
             },
             {
                 "city_id": "TR0006",
@@ -23489,7 +23498,7 @@
             },
             {
                 "city_id": "US0020",
-                "score": 0.7080319157052349
+                "score": 0.7080319157052348
             },
             {
                 "city_id": "US0022",
@@ -23501,7 +23510,7 @@
             },
             {
                 "city_id": "US0029",
-                "score": 0.7049323778581725
+                "score": 0.7049323778581724
             },
             {
                 "city_id": "UY0001",
@@ -23822,7 +23831,7 @@
             },
             {
                 "city_id": "BR0005",
-                "score": 0.801122696839132
+                "score": 0.8011226968391318
             },
             {
                 "city_id": "BR0006",
@@ -23922,7 +23931,7 @@
             },
             {
                 "city_id": "KR0003",
-                "score": 0.7141194230241422
+                "score": 0.7141194230241423
             },
             {
                 "city_id": "KR0004",
@@ -24157,7 +24166,7 @@
             },
             {
                 "city_id": "CI0001",
-                "score": 0.8564949174281061
+                "score": 0.856494917428106
             },
             {
                 "city_id": "CM0001",
@@ -24169,11 +24178,11 @@
             },
             {
                 "city_id": "EC0001",
-                "score": 0.7636222412959055
+                "score": 0.7636222412959056
             },
             {
                 "city_id": "GH0001",
-                "score": 0.8314286625686614
+                "score": 0.8314286625686615
             },
             {
                 "city_id": "HN0001",
@@ -24193,7 +24202,7 @@
             },
             {
                 "city_id": "IN0001",
-                "score": 0.7856221853768477
+                "score": 0.7856221853768478
             },
             {
                 "city_id": "IN0002",
@@ -24209,7 +24218,7 @@
             },
             {
                 "city_id": "MR0001",
-                "score": 0.7053125603760149
+                "score": 0.7053125603760148
             },
             {
                 "city_id": "MW0001",
@@ -24237,7 +24246,7 @@
             },
             {
                 "city_id": "SN0001",
-                "score": 0.7369853193011989
+                "score": 0.7369853193011988
             },
             {
                 "city_id": "TW0002",
@@ -25149,7 +25158,7 @@
             },
             {
                 "activity": "NextGeneration NYCHA Sustainability Agenda",
-                "category": "Urban Land Use & Sustainable Communities",
+                "category": "Adaptation",
                 "description": "In 2016, the NextGeneration NYCHA Sustainability Agenda was developed as a 10-year roadmap for healthy and comfortable homes able to withstand the impacts of climate change, in addition to supporting the city\u2019s commitment to reduce its greenhouse gas emissions by 80% by 2050. The plan outlines 17 strategies to reduce NYCHA\u2019s carbon footprint by 30% by 2025, foster resilience, and safeguard resident wellness, including improving heating and hot water efficiency, establishing standards for new buildings and improving existing buildings, adopting large-scale use of clean energy, and connecting residents to economic opportunity. Flood risk and stormwater management are a priority of the agenda, with resilience plans in development for all housing vulnerable to coastal flooding, including risk assessments and retrofit guidelines based on lessons learned from Hurricane Sandy. Phase one of the stormwater infrastructure implementation projects has the potential to capture approximately 72 million liters per year. Additionally, NYCHA will provide back-up power for all Sandyaffected developments, develop microgrids at certain developments, and install 25 MW of solar power in an effort to protect public housing residents from the short- and long-term impacts of climate change.",
                 "description quality": "curated",
                 "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www1.nyc.gov/assets/nycha/downloads/pdf/NGN-Sustainability.pdf",
@@ -25175,7 +25184,7 @@
         "matches": [
             {
                 "city_id": "AT0001",
-                "score": 0.7392967550157662
+                "score": 0.7392967550157661
             },
             {
                 "city_id": "BE0001",
@@ -25199,7 +25208,7 @@
             },
             {
                 "city_id": "DE0002",
-                "score": 0.7389272404449476
+                "score": 0.7389272404449477
             },
             {
                 "city_id": "ES0001",
@@ -25207,7 +25216,7 @@
             },
             {
                 "city_id": "FR0001",
-                "score": 0.7432637372800371
+                "score": 0.743263737280037
             },
             {
                 "city_id": "GB0001",
@@ -25219,7 +25228,7 @@
             },
             {
                 "city_id": "HU0001",
-                "score": 0.7538037921957702
+                "score": 0.7538037921957701
             },
             {
                 "city_id": "IT0001",
@@ -25247,7 +25256,7 @@
             },
             {
                 "city_id": "MX0001",
-                "score": 0.7437412550271847
+                "score": 0.7437412550271846
             },
             {
                 "city_id": "RU0001",
@@ -27066,7 +27075,7 @@
             },
             {
                 "city_id": "AR0002",
-                "score": 0.7303352885156758
+                "score": 0.7303352885156756
             },
             {
                 "city_id": "AR0003",
@@ -27134,7 +27143,7 @@
             },
             {
                 "city_id": "ES0004",
-                "score": 0.7524250551485303
+                "score": 0.7524250551485302
             },
             {
                 "city_id": "ES0005",
@@ -27158,7 +27167,7 @@
             },
             {
                 "city_id": "FR0003",
-                "score": 0.7157964636501152
+                "score": 0.7157964636501151
             },
             {
                 "city_id": "FR0006",
@@ -27250,7 +27259,7 @@
             },
             {
                 "city_id": "MX0001",
-                "score": 0.8108692991843317
+                "score": 0.8108692991843316
             },
             {
                 "city_id": "MX0002",
@@ -27298,7 +27307,7 @@
             },
             {
                 "city_id": "TW0002",
-                "score": 0.7143052813209072
+                "score": 0.7143052813209073
             },
             {
                 "city_id": "TW0006",
@@ -27514,7 +27523,7 @@
             },
             {
                 "activity": "Green Bond",
-                "category": "Transportation",
+                "category": "Finance",
                 "description": "The city of Johannesburg has pioneered a municipal \u201cGreen Bond\u201d in South Africa to raise funds to help respond comprehensively to climate change and to ensure the sustainable management of resources. The Green Bond issued by the city in June 2014 is worth ZAR1.5bn (approx. US$143m) and is funding projects across a range of sectors including 150 new dual fuel buses and converting 30 buses to biogas.",
                 "description quality": "curated",
                 "link": "https://www.c40.org/case_studies/c40-good-practice-guides-johannesburg-green-bond; https://www.jse.co.za/trade/debt-market/bonds/green-bonds; https://www.c40.org/case_studies/cities100-johannesburg-green-bonds-fill-gaps-in-financing-climate-projects",
@@ -27541,7 +27550,7 @@
             },
             {
                 "activity": "Climate Proofing of Urban Communities",
-                "category": "Urban Land Use & Sustainable Communities",
+                "category": "Buildings",
                 "description": "The Climate Proofing project involves the roll out of low-pressure Solar Water Heater (SWH) units, as well as the installation of insulated Isoboard ceilings and distribution of Compact fluorescent lamps (CFL) to 700 low-income households in Cosmo City. The project was funded by the Danish International Development Agency (DANIDA) under the auspices of the embassy as part of a R15-million climate change mini-programme for Joburg. The main objective of the project is to promote renewable energy, energy efficiency and greening in low-income houses and contribute towards building a liveable human settlement that promotes energy conservation, alleviates energy poverty and demonstrates the performance and efficiency of renewable energy and energy efficiency technologies. This project in an extension following on from the first phase of installation of 170 Solar Water Heaters (SWH) in 2007 and contributing to the Department of Energy\u2019s target of one million solar water heating units within five years.",
                 "description quality": "curated",
                 "link": "https://www.c40.org/case_studies/city-of-joburg-launches-its-%E2%80%98climate-proofing-of-urban-communities%E2%80%99-project; https://locs4africa.iclei.org/wp-content/uploads/2011/03/Linda-Phalatse_City-of-Johannesburg.pdf",
@@ -27596,7 +27605,7 @@
             },
             {
                 "city_id": "BE0001",
-                "score": 0.7603294674233686
+                "score": 0.7603294674233685
             },
             {
                 "city_id": "XX0030",
@@ -27620,7 +27629,7 @@
             },
             {
                 "city_id": "BR0010",
-                "score": 0.7452381383769081
+                "score": 0.7452381383769082
             },
             {
                 "city_id": "BR0011",
@@ -27684,7 +27693,7 @@
             },
             {
                 "city_id": "FR0001",
-                "score": 0.7162097258632175
+                "score": 0.7162097258632174
             },
             {
                 "city_id": "FR0002",
@@ -27864,7 +27873,7 @@
             },
             {
                 "city_id": "TR0006",
-                "score": 0.7158674230364005
+                "score": 0.7158674230364004
             },
             {
                 "city_id": "TR0008",
@@ -27896,7 +27905,7 @@
             },
             {
                 "city_id": "US0006",
-                "score": 0.7661306037270932
+                "score": 0.7661306037270931
             },
             {
                 "city_id": "US0007",
@@ -27960,7 +27969,7 @@
             },
             {
                 "city_id": "ZA0008",
-                "score": 0.7093277867271572
+                "score": 0.7093277867271574
             }
         ],
         "new_id": "ZA0001",
@@ -28497,7 +28506,7 @@
             },
             {
                 "city_id": "ES0004",
-                "score": 0.7627440883017725
+                "score": 0.7627440883017726
             },
             {
                 "city_id": "ES0005",
@@ -28549,11 +28558,11 @@
             },
             {
                 "city_id": "HN0001",
-                "score": 0.7139171404649184
+                "score": 0.7139171404649185
             },
             {
                 "city_id": "HR0001",
-                "score": 0.7298795627879665
+                "score": 0.7298795627879666
             },
             {
                 "city_id": "HU0001",
@@ -28593,7 +28602,7 @@
             },
             {
                 "city_id": "IT0006",
-                "score": 0.7427192313512899
+                "score": 0.74271923135129
             },
             {
                 "city_id": "JO0001",
@@ -28645,7 +28654,7 @@
             },
             {
                 "city_id": "MA0003",
-                "score": 0.722317219964689
+                "score": 0.7223172199646889
             },
             {
                 "city_id": "MX0001",
@@ -28689,7 +28698,7 @@
             },
             {
                 "city_id": "PT0002",
-                "score": 0.7050920214008181
+                "score": 0.7050920214008182
             },
             {
                 "city_id": "RU0002",
@@ -28705,11 +28714,11 @@
             },
             {
                 "city_id": "TR0003",
-                "score": 0.8229723320715431
+                "score": 0.8229723320715432
             },
             {
                 "city_id": "TR0004",
-                "score": 0.8226024338040293
+                "score": 0.8226024338040294
             },
             {
                 "city_id": "TR0005",
@@ -28745,7 +28754,7 @@
             },
             {
                 "city_id": "TW0006",
-                "score": 0.7120573526520465
+                "score": 0.7120573526520464
             },
             {
                 "city_id": "US0002",
@@ -28785,7 +28794,7 @@
             },
             {
                 "city_id": "US0014",
-                "score": 0.7232120222937788
+                "score": 0.7232120222937789
             },
             {
                 "city_id": "US0015",
@@ -28971,15 +28980,6 @@
                 "source": "C40 Cities"
             },
             {
-                "activity": "Solar City Framework",
-                "category": "Clean Energy",
-                "description": "Durban has created an evidence-based solar framework to promote the uptake of solar technologies in residential and commercial properties, stimulate local industry, and promote information sharing among municipalities to encourage further solar development. In a learning-by-doing approach, the city has installed 300 kW of PV on five municipal buildings. The lessons learned from these initial projects will feed into future policy developments and installations as the city adds to its solar portfolio on the 2,000 available municipal buildings. In order to encourage solar uptake more widely, the city created the first African PV mapping tool, enabling residents and businesses to calculate the PV potential of their roof, estimate savings, payback time, and find a local installer. Additionally, they are developing an online short course about renewable energy as well as an educational website for people to learn more about the potential of solar technology.",
-                "description quality": "curated",
-                "link": "https://www.c40.org/case_studies/cities100-durban-solar-framework-calls-citizens-to-action; http://www.durban.gov.za/City_Services/energyoffice/projects/Pages/RenewableEnergy.aspx#DurbanSolar",
-                "reporting year": 2013,
-                "source": "C40 Cities"
-            },
-            {
                 "activity": "Durban Climate Change Strategy",
                 "category": "Climate Action Plans",
                 "description": "Human-induced climate change has been identified globally as one of the key challenges of our age. Cities such as Durban need to respond by adapting to the impacts of a changing climate while reducing their contributions to climate change. To address this challenge, the eThekwini Municipality has developed the Durban Climate Change Strategy (DCCS) as part of the Municipal Climate Protection Programme, with the aim of defining a city-wide approach to adapting to climate change and mitigating Durban\u2019s contribution to climate change. Ten interrelated climate change response themes were identified through the strategy development process: Water; Sea level rise; Biodiversity; Food security; Health; Energy; Waste and pollution; Transport; Economic development; and Knowledge generation and understanding. A set of goals, objectives and responses was developed for each theme. ",
@@ -29077,7 +29077,7 @@
             },
             {
                 "city_id": "BR0010",
-                "score": 0.8011478334121456
+                "score": 0.8011478334121455
             },
             {
                 "city_id": "BR0011",
@@ -29101,11 +29101,11 @@
             },
             {
                 "city_id": "BR0017",
-                "score": 0.7396727973117069
+                "score": 0.739672797311707
             },
             {
                 "city_id": "BR0025",
-                "score": 0.7387159555932415
+                "score": 0.7387159555932414
             },
             {
                 "city_id": "BR0027",
@@ -29117,7 +29117,7 @@
             },
             {
                 "city_id": "BR0029",
-                "score": 0.7144012147542445
+                "score": 0.7144012147542443
             },
             {
                 "city_id": "BR0030",
@@ -29133,7 +29133,7 @@
             },
             {
                 "city_id": "CN0001",
-                "score": 0.7690810741962492
+                "score": 0.769081074196249
             },
             {
                 "city_id": "CO0002",
@@ -29157,7 +29157,7 @@
             },
             {
                 "city_id": "ES0003",
-                "score": 0.7008420602647012
+                "score": 0.7008420602647013
             },
             {
                 "city_id": "ES0004",
@@ -29197,7 +29197,7 @@
             },
             {
                 "city_id": "ID0003",
-                "score": 0.8046032090401845
+                "score": 0.8046032090401846
             },
             {
                 "city_id": "ID0004",
@@ -29361,7 +29361,7 @@
             },
             {
                 "city_id": "UY0001",
-                "score": 0.7276989486433585
+                "score": 0.7276989486433584
             },
             {
                 "city_id": "VE0001",
@@ -29468,7 +29468,7 @@
             },
             {
                 "city_id": "BR0007",
-                "score": 0.7629221229867539
+                "score": 0.7629221229867538
             },
             {
                 "city_id": "BR0009",
@@ -29576,7 +29576,7 @@
             },
             {
                 "city_id": "IT0005",
-                "score": 0.7176292202984643
+                "score": 0.7176292202984644
             },
             {
                 "city_id": "JO0001",
@@ -29648,11 +29648,11 @@
             },
             {
                 "city_id": "TR0009",
-                "score": 0.7155209124028277
+                "score": 0.7155209124028278
             },
             {
                 "city_id": "UA0001",
-                "score": 0.7058686740019647
+                "score": 0.7058686740019648
             },
             {
                 "city_id": "US0014",
@@ -29684,7 +29684,7 @@
             },
             {
                 "city_id": "UY0002",
-                "score": 0.7450381988577949
+                "score": 0.745038198857795
             },
             {
                 "city_id": "VE0001",
@@ -29708,7 +29708,7 @@
             },
             {
                 "city_id": "ZA0009",
-                "score": 0.7243835468375295
+                "score": 0.7243835468375296
             }
         ],
         "new_id": "ZA0005",
@@ -29787,6 +29787,19 @@
                     "link": "http://www.afd.fr/en/print/pdf/node/3166",
                     "reporting year": 2010,
                     "source": "Agence Francaise de Developmente (AFD)"
+                }
+            ]
+        },
+        "Aurora": {
+            "actions": [
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/96",
+                    "reporting year": 2005,
+                    "source": "Financing Sustainable Cities Initiative"
                 }
             ]
         },
@@ -29927,6 +29940,24 @@
                     "link": "https://civitas.eu/measure/development-bicycle-safety",
                     "reporting year": 2011,
                     "source": "CIVITAS"
+                },
+                {
+                    "activity": "Intermodality with Public Transport",
+                    "category": "Transportation",
+                    "description": "Currently, Brescia public transport is mainly based on its existing bus fleet and does not offer other transport options, meaning that intermodality is provided. In addition, almost all bike city trips do not include other transport modes, critically limiting combined bike-bus travel over large distances. Intermodality is used only for suburban trips involving only the train station and the main bus station, which are located in the same place. This results in a very congested area creating a difficult and uncomfortable shift in modal transport.\nThis measure mainly consisted in research studies and demo activities that as a precursor to the launch of the Brescia metro line, opened in 2013. The integration of several innovative systems: bike-sharing network, automatic light metro line, train and bus services is one of the measure's most innovative aspects.\nAnother innovative aspect of the measure involved the use of different modelling techniques (macro and micro) to define strategic choices about the future public transport network. This methodological approach aimed to support the reorganisation of the local public transport once the new metro line is launched. The macro-simulation regarded the new public transport network scenarios, while the micro-simulation evaluated the quality of public spaces close to the new metro stations.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/intermodality-public-transport",
+                    "reporting year": 2011,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Renewable Energy Production for the Hybrid Bus Fleet",
+                    "category": "Transportation",
+                    "description": "The measure belongs to the thematic area of 'alternative fuels' and concerns the production of energy by enlarging the existing Brescia Trasporti (Public Transport Company in Brescia) photovoltaic system. This was done to achieve independence in terms of energy and by recharging the batteries of hybrid busses which are part of Brescia Trasporti fleet. The new plant characterised by a peak power of 76,8 KWp was built between January and March 2011, beginning operation in April 2011. In its first year (May 2011 to April 2012) the new system produced 97.736 kWh, almost twice more than the previous power plant. Furthermore, in the first year, the new system entailed reduced CO2 by 52 tons of CO2 and saved 22 tons of TOE (tonne of oil equivalent). In terms of impact, the measure is considered successful.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/renewable-energy-production-hybrid-bus-fleet",
+                    "reporting year": 2011,
+                    "source": "CIVITAS"
                 }
             ]
         },
@@ -29953,6 +29984,28 @@
                     "link": "https://civitas.eu/measure/extension-bicycle-transport-service-cycle-buses",
                     "reporting year": 2013,
                     "source": "CIVITAS"
+                },
+                {
+                    "activity": "Development of Electro-mobility and Introduction of Electric Mini-buses",
+                    "category": "Transportation",
+                    "description": "The public transport company of Brno (DPMB) operates 150 trolley buses. Operation of clean vehicles requires an infrastructure comprising 28 substations that provide electric energy to the entire trolley bus network. Public transport generally involves frequent braking and accelerating, a very frequent phenomenon due to Brno's hilly topography. Most of the energy generated during the braking process of the vehicle is not used in any way, leading to inefficient operation. The DPMB expected that the study undertaken by the university to propose a technical solution that involves storing the energy generated during braking and using it for accelerating. Consequently implementation of the measure should consist of reducing peaks in energy consumption of electric public-transport vehicles.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/development-electro-mobility-and-introduction-electric-mini-buses",
+                    "reporting year": 2014,
+                    "source": "CIVITAS"
+                }
+            ]
+        },
+        "Br\u00f8ndby": {
+            "actions": [
+                {
+                    "activity": "RegnRuten",
+                    "category": "Water",
+                    "description": "In Br\u00f8ndby Municipality, increased rainfall is considered an opportunity to engage citizens and beautify the city while adapting to climate change. This is reflected in the project RegnRuten (Rain Route), both as website and a physical \"rain route\" in Br\u00f8ndby. The physical route runs around several areas where rainwater is directed to plant beds, grass areas and basins. The route helps create synergy and environmental co-benefits in the form of a greener city with a focus on water as a recreational resource.",
+                    "description quality": "curated",
+                    "link": "https://issuu.com/sustainia/docs/klima100-2018-pdf_for_web_english",
+                    "reporting year": "(blank)",
+                    "source": "Sustainia"
                 }
             ]
         },
@@ -30040,7 +30093,7 @@
                 {
                     "activity": "Zabbaleen Environmental and Development Program",
                     "category": "Waste",
-                    "description": "Traditionally, two groups, the Wahis and the Zabbaleen, have worked together to collect and remove the city's trash; the Wahis control the routes and contract with homeowners, while the Zabbaleen collect the waste and transportit to their settlements, where it is sorted and recycled or used for animal fodder. As the city grew and the amount of daily garbage skyrocketed, Cairo's trash collection needs began to overtake the Zabbaleen's capacity to provide services. The Zabbaleen were a marginalized and undervalued community with little or no organization or power. This project aims to integrate informal waste handling systems with modern technologically robust processes in order to meet expanding waste processing needs in developing cities.",
+                    "description": "Traditionally, two groups, the Wahis and the Zabbaleen, have worked together to collect and remove the city's trash; the Wahis control the routes and contract with homeowners, while the Zabbaleen collect the waste and transport it to their settlements, where it is sorted and recycled or used for animal fodder. As the city grew and the amount of daily garbage skyrocketed, Cairo's trash collection needs began to overtake the Zabbaleen's capacity to provide services. The Zabbaleen were a marginalized and undervalued community with little or no organization or power. This project aims to integrate informal waste handling systems with modern technologically robust processes in order to meet expanding waste processing needs in developing cities.",
                     "description quality": "curated",
                     "link": "http://www.citiesalliance.org/sites/citiesalliance.org/files/GP-GL3%20SWM.pdf",
                     "reporting year": 1981,
@@ -30283,6 +30336,28 @@
                 }
             ]
         },
+        "Debrecen": {
+            "actions": [
+                {
+                    "activity": "Integrated and Extended Cycling Network",
+                    "category": "Transportation",
+                    "description": "The municipality decided to integrate all cycling-related developments into a strategic development plan, and a study was drawn up. The mobility advisory council invited representatives of cyclists organisations to share their expectations and opinions about appropriate developments. In 2007, the city council approved the overall bicycle network development plan. The plan was adjusted to the city\u2019s financial resources and foresaw the creation of 48 km of cycle lanes, around 10 km of which would be completed in an initial phase by the end of 2010. In accordance with the requirements of the development plan, the city installed 51 secure bicycle racks at 33 locations around the city and created approximately 4 km of cycle lanes in two different areas of the city, on existing pavements and service roads in order to avoid expensive infrastructure investments.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/integrated-and-extended-cycling-network",
+                    "reporting year": 2007,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Access and Parking Management in the City Centre",
+                    "category": "Transportation",
+                    "description": "The volume of traffic on the two main access roads into the centre of Debrecen regularly led to traffic congestion during peak periods, which also affected public transport services. In order to limit the volume of private vehicles going into the city centre, the city of Debrecen planned to develop the car park of a conference venue outside the city centre as a park and ride facility. In addition, the city aimed to install an on-line system in the existing traffic control centre to monitor traffic flow and improve air quality. Count-down metres were also installed at traffic lights in order to increase the efficiency of traffic flow at certain junctions.",
+                    "description quality": "curated",
+                    "link": "http://civitas.eu/measure/access-and-parking-management-city-centre",
+                    "reporting year": 2011,
+                    "source": "CIVITAS"
+                }
+            ]
+        },
         "Del Mar, CA": {
             "actions": [
                 {
@@ -30384,6 +30459,19 @@
                 }
             ]
         },
+        "East Gwillimbury": {
+            "actions": [
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/100",
+                    "reporting year": "Proposed",
+                    "source": "Financing Sustainable Cities Initiative"
+                }
+            ]
+        },
         "Ecatepec de Morales": {
             "actions": [
                 {
@@ -30433,19 +30521,6 @@
                     "link": "https://www.100resilientcities.org/wp-content/uploads/2018/02/El-Paso-Resilience-Strategy-PDF.pdf",
                     "reporting year": 2017,
                     "source": "100 Resilient Cities"
-                }
-            ]
-        },
-        "Elba": {
-            "actions": [
-                {
-                    "activity": "Increase Level of Safety of Pedestrian Crossings",
-                    "category": "Transportation",
-                    "description": "This measures aims to increase the overall level of safety related to\u00a0suburban mobility measures for residents and tourists om Elba Island.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/increase-level-safety-pedestrian-crossings",
-                    "reporting year": 2017,
-                    "source": "CIVITAS"
                 }
             ]
         },
@@ -30553,6 +30628,37 @@
                 }
             ]
         },
+        "Ghent": {
+            "actions": [
+                {
+                    "activity": "Hybrid Buses",
+                    "category": "Transportation",
+                    "description": "After an in-depth analysis of the specifications required to fulfil the objectives in De Lijn\u2019s energy and quality policy, a call for tender was launched. In this call, a test phase was foreseen for the offered vehicles of the interested suppliers. One vehicle served as a test case during the spring of 2009. The test case proved to be very successful and 18 more hybrid buses have been introduced into the Ghent public transport network. In total De Lijn introduced 20 new energy-efficient and innovative articulated low floor hybrid buses (type AG300H) on busline 3.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introduction-hybrid-buses",
+                    "reporting year": 2012,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Pedestrian Area Access Restrictions",
+                    "category": "Transportation",
+                    "description": "A new permit system will be developed for the pedestrian area, with permits issued by category (e.g. residents, deliveries of perishables, deliveries of non-perishable goods, postal services, etc.). Each vehicle holding a permit will be granted access a limited number of times. Ghent will also explore the possibility of giving limited categories the option of purchasing additional fares at a certain price if the vehicle holder has used the allocated number of fares.\u00a0 Any attempt made to access the pedestrian area without a permit or if a vehicle has exceeded the number of allocated fares will result in an access denial.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/pedestrian-area-access-restrictions",
+                    "reporting year": 2012,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Safe Cycling Corridor",
+                    "category": "Transportation",
+                    "description": "This measure focuses on the implementation of safer and better cycling routes in the corridor by improvements of the main crossroads on the cycling routes from the main train station Ghent Sint-Pieters towards the city centre and the university area. Also other cycling routes to and from the station were audited and improved within this measure. A second submeasure, which is a pilot project in Belgium, is the redevelopment of the Visserij as a cycle street. The Visserij changed from a road with mixed traffic (30 km/h) into a cycle street. The concept of the cycle street is that cyclists have priority and cars are only \u201cguests\u201d. The Visserij is the first cycle street in Belgium. For promotion and stimulation of safe cycling, but also for data collection, the cycling barometers were installed at the Visserij and the main cycling axis in Ghent, the Coupure Links.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/safe-cycling-corridor",
+                    "reporting year": 2012,
+                    "source": "CIVITAS"
+                }
+            ]
+        },
         "Gibsons": {
             "actions": [
                 {
@@ -30605,6 +30711,59 @@
                 }
             ]
         },
+        "Gorna Oryahovitsa": {
+            "actions": [
+                {
+                    "activity": "Sustainable Urban Transport Plan",
+                    "category": "Transportation",
+                    "description": "As of the beginning of the Renaissance project the City had several urban and economy development plans adopted and enforced, but was missing logically structured and integrated long-term policy on sustainable transport planning. Being a relatively small in size and number of population Gorna Oryahovitsa was benefiting modal split in favour of non-motorised modes, relatively low level of road traffic and fatality and causality rates below the country average. In the same time there were signs of rapidly evolving situation: very low use of public transport, motorisation rate above the country average, accelerated growth of road traffic and especially the heavy transit one, very low use of alternative fuels. This combination of advantages and disadvantages provided the City of Gorna Oryahovitsa with the chance of setting up and undertaking preventive measures for solving the forthcoming problems before the quality of life in the city is drastically deteriorating due to transport related externalities. Being a follower city Gorna Oryahovitsa identified elaboration of an integrated concept for sustainable transport development as one of the measures to be implemented within the Renaissance project.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-sustainable-urban-transport-plan",
+                    "reporting year": 2013,
+                    "source": "CIVITAS"
+                }
+            ]
+        },
+        "Gothenburg": {
+            "actions": [
+                {
+                    "activity": "ElectriCity",
+                    "category": "Transportation",
+                    "description": "In 2015 a new bus service was created on a 9km route 55, powered by 100% renewable electricity from wind and hydro, with battery electric and hybrid electric Volvo buses and Siemens charging stations. The buses were introduced as part of the ElectriCity program: a cooperative venture between research, industry and city actors, for the purpose of developing, demonstrating and evaluating next-generation sustainable public transport. Among the participants are Volvo Group, University of Technology, Region V\u00e4stra G\u00f6taland, V\u00e4sttrafik, the Municipality of Gothenburg, G\u00f6teborg Energi, Lindholmen Science Park and Johanneberg Science Park",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/11; https://www.iea.org/policiesandmeasures/pams/sweden/name-44937-en.php",
+                    "reporting year": 2015,
+                    "source": "Financing Sustainable Cities Initiative; IEA"
+                },
+                {
+                    "activity": "HYPER Bus",
+                    "category": "Transportation",
+                    "description": "Gothenburg piloted 3 hybrid buses from 2011-2014 on route 60 as part of the HYPER Bus Project, which stands for Hybrid and Plug-in Extended Range Bus system. The project was created to demonstrate innovative technology that reduces emissions from the transport sector while maintaining high performance standards. The project budget of SEK 32 million was half funded by the EU Life+ program and half by the 5 partners: Volvo, Gothenburg Energy, Vasttrafik, City of Gothenburg Transport Department, and Business Region Gothenburg.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/12; https://www.siemens.com/press/pool/de/pressemitteilungen/2015/mobility/PR2015010104MOEN.pdf",
+                    "reporting year": 2011,
+                    "source": "Financing Sustainable Cities Initiative; Siemens"
+                },
+                {
+                    "activity": "Gothenburg Congestion Charge",
+                    "category": "Transportation",
+                    "description": "Gothenburg (G\u00f6teborg) is a famous port city on the southwestern coast of Sweden. It is located on the Kattegat Strait, about the Tatar Canal, and across the sea from the northern tip of Denmark. The Gothenburg congestion tax (Swedish: Tr\u00e4ngselskatt i G\u00f6teborg), also referred to as the Gothenburg congestion charge, was introduced on January 1, 2013, with the Stockholm congestion tax as a model. The primary purpose of the congestion tax is to reduce traffic congestion and improve the environmental situation in central Gothenburg, and to get financing for large road and rail construction projects in and around Gothenburg. There is no charge on Saturdays, Sundays, public holidays or the day before public holidays, nor during nights (18:30 \u2013 05:59), nor during the month of July.\n\n \n\nThere is no charge on Saturdays, Sundays, public holidays or the day before public holidays, nor during nights (18:30 \u2013 05:59), nor during the month of July.\n\n ",
+                    "description quality": "curated",
+                    "link": "https://www.lez-cc.info/copy-of-32",
+                    "reporting year": 2013,
+                    "source": "WRI China"
+                },
+                {
+                    "activity": "Clean Waste Collection Vehicles",
+                    "category": "Transportation",
+                    "description": "The main objective of the measure was therefore a full-scale demonstration of innovative clean waste collection vehicles that reduce environmental problems in terms of noise, water and air pollution. These clean vehicles represent an environmental and cost-effective approach to waste collection, reducing noise, the risk of hydraulic oil leakage, fuel consumption and emissions of nitrogen oxides (NOx), particulates (PM), hydrocarbons (HC), carbon monoxide (CO) and carbon dioxide (CO2).",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-clean-waste-collection-vehicles",
+                    "reporting year": 2011,
+                    "source": "CIVITAS"
+                }
+            ]
+        },
         "Graz": {
             "actions": [
                 {
@@ -30623,6 +30782,24 @@
                     "description quality": "curated",
                     "link": "https://civitas.eu/measure/increasing-car-occupancy-rates",
                     "reporting year": 2004,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Introducing Strolling Zones",
+                    "category": "Transportation",
+                    "description": "Prior to measure implementation, various restrictions on car use had already been introduced. The city centre had pedestrian precincts and the city administration had devoted great efforts to promoting cycling. However, the districts neighbouring the pedestrian precincts were badly affected by heavy traffic, making accessibility to the pedestrian areas unsafe and unpleasant. With wider and more attractive pavements, the new strolling zones were designed to offer a good solution for pedestrians while also offering access to cyclists and not totally excluding car use. The establishment of strolling zones has improved quality of life in the city centre; increased the modal share of pedestrians; boosted commercial activity (bars, shops etc.); while reducing on-street parking, traffic noise and emissions.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-strolling-zones",
+                    "reporting year": 2011,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Lower Parking Tariffs for Low-Emission Cars",
+                    "category": "Transportation",
+                    "description": "The hourly parking tariff for all conventional vehicles was raised from EUR 1 to EUR 1.20, while the tariff for low-emission vehicles was lowered to EUR 0.80. Registered owners of low-emission cars receive a so-called Umweltjeton, or environmental token, and an official sticker issued by the city council. Ticket vending machines are equipped to recognise these tokens and deliver a lower tariff.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/lower-parking-tariffs-low-emission-cars",
+                    "reporting year": 2011,
                     "source": "CIVITAS"
                 }
             ]
@@ -30661,6 +30838,15 @@
                     "source": "C40 Cities"
                 },
                 {
+                    "activity": "\u00a0Urban Waste Management System",
+                    "category": "Waste",
+                    "description": "Firstly, the city is further pushing ahead on household waste sorting. In 2014, the city was listed among the country\u2019s best cities in household waste sorting. Secondly, the city is continuing its efforts in advancing the sorting management system. Thirdly, the city makes an effective connection between waste sorting and waste recovery. Fourthly, the city is pushing forward the development of waste treatment facilities in a holistic way. As of now, Guangzhou has built three thermal power plants for household waste, which disposes of 5,000 tons of waste per day. Five thermal power plants, with a total disposal amount of 12,000 tons per day, are now under construction and expected to be completed and put into use by the end of 2018. 6.2 million tons of waste being disposed of every year, with a reduction of CO2 emission of around 13.26 million tons.",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/guangzhou-s-waste-management-system",
+                    "reporting year": 2014,
+                    "source": "C40 Cities"
+                },
+                {
                     "activity": "Low Carbon City Implementation Plan",
                     "category": "Clean Energy",
                     "description": "Guangzhou, a megacity with a population exceeding 13 million, is still in a stage of rapid economic development and urban construction. In 2012, Guangzhou launched the Pilot Low Carbon City Implementation Plan in an effort to reduce greenhouse emissions through systematic measures in the growing city. The plan includes the elimination of outdated industrial capacity and equipment and the promotion of energy-efficient technologies and green, low-carbon buildings. Transport infrastructure is also being targeted, with a new public transport system mainly based on rail transit.",
@@ -30669,19 +30855,6 @@
                     "reporting year": 2012,
                     "source": "ClimateRealityProject"
                 },
-                {
-                    "activity": "\u00a0Urban Waste Management System",
-                    "category": "Waste",
-                    "description": "Firstly, the city is further pushing ahead on household waste sorting. In 2014, the city was listed among the country\u2019s best cities in household waste sorting. Secondly, the city is continuing its efforts in advancing the sorting management system. Thirdly, the city makes an effective connection between waste sorting and waste recovery. Fourthly, the city is pushing forward the development of waste treatment facilities in a holistic way. As of now, Guangzhou has built three thermal power plants for household waste, which disposes of 5,000 tons of waste per day. Five thermal power plants, with a total disposal amount of 12,000 tons per day, are now under construction and expected to be completed and put into use by the end of 2018. 6.2 million tons of waste being disposed of every year, with a reduction of CO2 emission of around 13.26 million tons.",
-                    "description quality": "curated",
-                    "link": "https://www.c40.org/case_studies/guangzhou-s-waste-management-system",
-                    "reporting year": 2014,
-                    "source": "C40 Cities"
-                }
-            ]
-        },
-        "Guangzhou ": {
-            "actions": [
                 {
                     "activity": "Guangzhou BRT",
                     "category": "Transportation",
@@ -30776,6 +30949,19 @@
                 }
             ]
         },
+        "Herning": {
+            "actions": [
+                {
+                    "activity": "Climate Proofing",
+                    "category": "Adaptation",
+                    "description": "With this project, Herning Municipality has demonstrated a good example of how to handle an expected increase in rainwater, while improving existing green areas that otherwise go unused. The municipality has thus increased the value of a desolate area. The lake is located between two districts and is ideal for both outdoor recreation and efficient green/blue climate adaptation. By creating the lake which can store 60,000 m3 of water, Herning Municipality has reduced the water level in nearby streams by up to 30 cm, lowering the flood risk in both Herning and Holstebro Municipalities.",
+                    "description quality": "curated",
+                    "link": "https://issuu.com/sustainia/docs/klima100-2018-pdf_for_web_english",
+                    "reporting year": "(blank)",
+                    "source": "Sustainia"
+                }
+            ]
+        },
         "Ho Chi Minh": {
             "actions": [
                 {
@@ -30837,7 +31023,7 @@
                 }
             ]
         },
-        "Jagarnathpur rural area)": {
+        "Jagarnathpur": {
             "actions": [
                 {
                     "activity": "Jagarnathpur Biomass Gasifier",
@@ -30864,7 +31050,7 @@
                 {
                     "activity": "Mahindra World City",
                     "category": "Urban Land Use & Sustainable Communities",
-                    "description": "While in the early phases of development, the project has completed its Climate Positive Roadmapxiv that details the strategies and tactics to be pursued to achieve a Climate Positive outcome. Situated 25 km from Jaipur airport, Mahindra World City already houses more than 65 global and domestic multinational clients like Infosys, Wipro, JCB, Perto, Rexam and others, across its Special Economic Zone (SEZ) and Domestic Tariff Area (DTA) facilities. The project will have a net impact of reducing over 60,000 tCO2e per year, compared to a business as usual baseline of over 800,000 tCO2e",
+                    "description": "While in the early phases of development, the project has completed its Climate Positive Roadmap that details the strategies and tactics to be pursued to achieve a Climate Positive outcome. Situated 25 km from Jaipur airport, Mahindra World City already houses more than 65 global and domestic multinational clients like Infosys, Wipro, JCB, Perto, Rexam and others, across its Special Economic Zone (SEZ) and Domestic Tariff Area (DTA) facilities. The project will have a net impact of reducing over 60,000 tCO2e per year, compared to a business as usual baseline of over 800,000 tCO2e",
                     "description quality": "curated",
                     "link": "https://www.c40.org/case_studies/c40-good-practice-guides-jaipur-mahindra-world-city",
                     "reporting year": "(blank)",
@@ -30972,7 +31158,7 @@
                 }
             ]
         },
-        "La Verne, CA ": {
+        "La Verne, CA": {
             "actions": [
                 {
                     "activity": "Foothill Transit",
@@ -31002,7 +31188,7 @@
                     "description": "This measure will include the purchasing and implantation in Las Palmas de Gran Canaria of 40 new bike stations (5 of them will be smart totems that are going to be placed at touristic areas), 520 anchor points, 20 e-bikes, 375 smart bikes and 2 adapted bikes accessible for the physically impaired.",
                     "description quality": "curated",
                     "link": "http://civitas.eu/measure/public-e-bike-system",
-                    "reporting year": 2017,
+                    "reporting year": "2017 (Ongoing)",
                     "source": "CIVITAS"
                 },
                 {
@@ -31024,19 +31210,6 @@
                     "description": "Prior to this project Iasi did not have any dedicated cycle lanes. By gathering information about perceived safety, user perception of bicycle parking facilities, the number of cyclists in corridor, bicycle accidents and car drivers\u2019 awareness of the facilities to be implemented, this measure aimed to reduce traffic congestion, pollution and improve air quality throughout the city. This measure introduced 10 km of cycling tracks. The new facilities are supported by a promotional campaign to encourage citizens to take up cycling.",
                     "description quality": "curated",
                     "link": "http://civitas.eu/measure/city-cycle-routes",
-                    "reporting year": 2013,
-                    "source": "CIVITAS"
-                }
-            ]
-        },
-        "Ljubljana\u00a0": {
-            "actions": [
-                {
-                    "activity": "Hybrid and CNG Buses",
-                    "category": "Transportation",
-                    "description": "The new hybrid and CNG buses are at least 20 % less fuel cost effective than the old models. Among other benefits, the new CNG buses fulfil the most demanding exhaust criteria of the EEV standard (Enhanced Environmentally Friendly Vehicle). This means, that the particular exhausts PM10, are so minuscule that they are almost harmless for citizens and the environment. Air pollution is thus foreseen to decrease by up to 80 percent. All measures for improvement of the public bus transport results also in better image of the bus as a mode of transport among passengers.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/hybrid-and-cng-buses",
                     "reporting year": 2013,
                     "source": "CIVITAS"
                 }
@@ -31190,37 +31363,6 @@
                 }
             ]
         },
-        "Nantes": {
-            "actions": [
-                {
-                    "activity": "Busway Ligne 4",
-                    "category": "Transportation",
-                    "description": "Busway Ligne 4 was launched in 2006 and now serves a 7km corridor with 15 stations between the city\u2019s ring road and the center of Nantes. It responds to travel demand between a suburban residential area and the city center. It is also considered to have played a role in shaping people\u2019s travel behaviors as it provides an attractive and efficient service. To entice motorists onto the public transport network, the Busway has been designed to provide a similar quality service of tram or light rail. This has been achieved by providing high quality vehicles, well designed stations and dedicated infrastructure, including segregated lanes, to improve journey times and reliability.",
-                    "description quality": "curated",
-                    "link": "http://financingsustainablecities.org/solutions/98; https://unhabitat.org/wp-content/uploads/2013/06/GRHS.2013.Case_.Study_.Nantes.France.pdf; http://www.smtc-clermont-agglo.fr/file/Telechargements/2011/Campus_ete_2010/page_23_24.pdf",
-                    "reporting year": 2006,
-                    "source": "Financing Sustainable Cities Initiative"
-                },
-                {
-                    "activity": "Developing a New Clean Public Transport Fleet",
-                    "category": "Transportation",
-                    "description": "In the course of three years, 125 standard CNG buses and 30 articulated CNG buses were put into operation (50 in 2001; 42 in 2002; 33 in 2003). A new fuelling station opened in Trentemoult in June 2003. Following renewal, the fleet comprised 70 percent CNG-powered vehicles, and 90 percent of all trips were made on clean vehicles (trams or CNG buses).",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/developing-new-clean-public-transport-fleet",
-                    "reporting year": 2001,
-                    "source": "CIVITAS"
-                },
-                {
-                    "activity": "Improving Bike Culture",
-                    "category": "Transportation",
-                    "description": "In 2008, a short-term (30-minute) rent-a-bike service, Bicloo, was launched, offering 790 on-street bikes at 89 stations distributed throughout the city centre. New bicycle racks were installed: 80 secure bike-parking facilities were installed at several transport interchanges: 60 on the Nantes\u2013Vertou train line in 2003 and 20 at the Pont-Rousseau park and ride car park in 2008. By 2010, the Bicloo system had attracted 5,000 season ticket holders and around 1,600 rentals per day. The cycle path network expanded from 225 km in 2000 to 388 km in 2010, and the number of cycle racks rose from 2,000 in 2002 to 5,600 in 2010, distributed over 700 sites throughout the city. By 2006, measure implementation had resulted in a 12 percent increase in cycling along some of the city\u2019s main arteries.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/improving-bicycle-culture-and-services-ville-velo-and-bicloo",
-                    "reporting year": 2008,
-                    "source": "CIVITAS"
-                }
-            ]
-        },
         "New Delhi": {
             "actions": [
                 {
@@ -31243,12 +31385,25 @@
                 }
             ]
         },
+        "Newmarket": {
+            "actions": [
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/99",
+                    "reporting year": 2005,
+                    "source": "Financing Sustainable Cities Initiative"
+                }
+            ]
+        },
         "Ningbo": {
             "actions": [
                 {
                     "activity": "Ningbo Municipal Solid Waste Minimization and Recycling\u00a0",
                     "category": "Waste",
-                    "description": "Home to around 3.5 million people on China's east coast, Ningbo is a mediumsized city that is implementing an advanced waste separation, collection, and treatment strategy, with World Bank backing. The city is incentivizing separation of municipal waste at the source, before it is collected and either recycled or converted to energy. An anaerobic digestion facility for kitchen waste, the product of a public-private partnership, will be completed in 2018, with capacity for 30,000 m3 of organic waste per day. This will harvest natural gas produced from the decomposition process, which can be used for power or heat.",
+                    "description": "Home to around 3.5 million people on China's east coast, Ningbo is a medium sized city that is implementing an advanced waste separation, collection, and treatment strategy, with World Bank backing. The city is incentivizing separation of municipal waste at the source, before it is collected and either recycled or converted to energy. An anaerobic digestion facility for kitchen waste, the product of a public-private partnership, will be completed in 2018, with capacity for 30,000 m3 of organic waste per day. This will harvest natural gas produced from the decomposition process, which can be used for power or heat.",
                     "description quality": "curated",
                     "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; http://documents.worldbank.org/curated/en/334761468018605480/China-Ningbo-Municipal-Solid-Waste-Minimization-and-Recycling-Project",
                     "reporting year": 2013,
@@ -31279,6 +31434,24 @@
                     "link": "http://civitas.eu/measure/developing-city-centre-car-sharing-club",
                     "reporting year": 2006,
                     "source": "CIVITAS"
+                },
+                {
+                    "activity": "Introducing a Low-Emission Zone",
+                    "category": "Transportation",
+                    "description": "Due to high levels of nitrogen dioxide pollution in the centre of Norwich, as well as problems with particulates and smoke, an air quality management area had already been declared prior to implementation. The area includes an important bus route and the removal or cancellation of bus services was not seen as an option, thus the measure aimed to find an alternative way to improve air quality and safeguard public health. The development of a low-emission zone in the area was proposed as a solution to the problem. The zone was planned to cover one street on which traffic was limited to buses, taxis, delivery vehicles and emergency services with the aim of achieving the UK targets for annual emissions of nitrogen dioxide and particulates.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-low-emission-zon",
+                    "reporting year": 2008,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Time-Controlled Access Restrictions",
+                    "category": "Transportation",
+                    "description": "The aim of this measure was to restrict access to two city-centre streets to pedestrians, cyclists, public transport vehicles and delivery services only during hours of peak pedestrian activity (i.e. between 10:00 and 16:30). Access would be open to all traffic at other times.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-time-controlled-access-restrictions",
+                    "reporting year": 2007,
+                    "source": "CIVITAS"
                 }
             ]
         },
@@ -31292,19 +31465,6 @@
                     "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf",
                     "reporting year": "(blank)",
                     "source": "ClimateRealityProject"
-                }
-            ]
-        },
-        "Odense": {
-            "actions": [
-                {
-                    "activity": "Implementing Environmental Zones",
-                    "category": "Transportation",
-                    "description": "The aim of this measure was therefore to: establish environmental zones for Odense city centre within the inner ring road and for two selected housing areas in Odense; reduce the impact of motor vehicles on residential environments by introducing measures to limit/restrict/change vehicle access, speed, road space and noise; and increase traffic safety and feelings of security in residential areas.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/implementing-environmental-zones",
-                    "reporting year": 2011,
-                    "source": "CIVITAS"
                 }
             ]
         },
@@ -31429,7 +31589,7 @@
                     "description": "Msunduzi Municipality has entered into a 15-year contract with a UK-based energy firm that will see the New England Landfill site generate electricity. The gas-to-energy project involves the extraction of methane gas from the landfill site, which will be converted into energy and fed into the Eskom grid.",
                     "description quality": "curated",
                     "link": "https://www.news24.com/SouthAfrica/News/power-from-waste-20160225",
-                    "reporting year": 2016,
+                    "reporting year": "2016 (proposed)",
                     "source": "News24, CDP_actions2"
                 }
             ]
@@ -31547,6 +31707,19 @@
                 }
             ]
         },
+        "Rebild": {
+            "actions": [
+                {
+                    "activity": "Klima Rebild",
+                    "category": "Education and Behavior Change",
+                    "description": "Under the name Climate Rebild (Klima Rebild), a large number of institutions, companies, interest groups and volunteers have worked to promote sustainability in the municipality. Each spring, Rebild holds a two-week climate campaign. The campaign, Climate Weeks (Klimaugerne), aims to initiate discussions, activities and actions around climate change. Since the start of Klima Rebild in 2014, the Climate Weeks has been extended from 12 events over one week to more than 40 events spanning two. In 2018, Climate Rebild included \u2018swap markets\u2019 which welcomed over 430 visitors, an electric bike tour and a tree planting session, planting 30,000 trees in N\u00f8rager\u2019s new climate forest.",
+                    "description quality": "curated",
+                    "link": "https://issuu.com/sustainia/docs/klima100-2018-pdf_for_web_english",
+                    "reporting year": 2014,
+                    "source": "Sustainia"
+                }
+            ]
+        },
         "Redlands, CA": {
             "actions": [
                 {
@@ -31573,6 +31746,19 @@
                 }
             ]
         },
+        "Richmond Hill": {
+            "actions": [
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/96",
+                    "reporting year": 2005,
+                    "source": "Financing Sustainable Cities Initiative"
+                }
+            ]
+        },
         "Rosslyn, VA": {
             "actions": [
                 {
@@ -31592,6 +31778,19 @@
                     "link": "http://financingsustainablecities.org/solutions/49; http://ccap.org/assets/CCAP-Booklet_USArlington.pdf; https://projects.arlingtonva.us/planning/smart-growth/rosslyn-ballston-corridor/; http://www.fairfaxcounty.gov/dpz/tysonscorner/nofind/arlingdoc.pdf",
                     "reporting year": 2004,
                     "source": "Financing Sustainable Cities Initiative"
+                }
+            ]
+        },
+        "Ruse": {
+            "actions": [
+                {
+                    "activity": "Safe Pavements with Cycle Paths",
+                    "category": "Transportation",
+                    "description": "The present lack of sidewalks in Druzhba creates a high risk of road accidents involving pedestrians. It also creates intense traffic of taxis and personal cars coming from the peripheral district towards the city centre leading to congestions, air pollution and noise. Within this measure the Municipality of Ruse together with CSDCS Club will design safe sidewalks in the Druzhba district leading to the city centre and promote these towards the citizens.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/safe-pavements-cycle-paths-towards-city-centre",
+                    "reporting year": 2016,
+                    "source": "CIVITAS"
                 }
             ]
         },
@@ -31621,7 +31820,7 @@
                 }
             ]
         },
-        "San Dimas, CA ": {
+        "San Dimas, CA": {
             "actions": [
                 {
                     "activity": "Foothill Transit",
@@ -31764,7 +31963,7 @@
                     "source": "WWF"
                 },
                 {
-                    "activity": "(blank)",
+                    "activity": "Green Procurement Policy",
                     "category": "Inventories & Public Procurement",
                     "description": "The city has a green procurement policy for all government purchases, with criteria that include energy efficiency and recycled material requirements. The policy also has specific emissions reductions goals for certain types of appliances, such as reducing emissions from air conditioner use by 30%.",
                     "description quality": "curated",
@@ -31907,6 +32106,19 @@
                 }
             ]
         },
+        "Skanderborg": {
+            "actions": [
+                {
+                    "activity": "Skanderborg City Hall",
+                    "category": "Buildings",
+                    "description": "Skanderborg Municipality\u2019s new City Hall, which also houses a multiuse hall with sports and concert facilities, demonstrates a holistic and ambitious approach to sustainability. The building's design has taken into consideration everything from energy efficiency and climate-proofing to sustainable construction material and citizen engagement. The municipality\u2019s achievement has been recognized with DGNB platinum certification. The City Hall was completed in 2016 and is built according to a Danish BR2020 standard. The build has resulted in reduced total energy consumption (electricity, water and district heating) of over 50%.",
+                    "description quality": "curated",
+                    "link": "https://issuu.com/sustainia/docs/klima100-2018-pdf_for_web_english",
+                    "reporting year": 2016,
+                    "source": "Sustainia"
+                }
+            ]
+        },
         "Springfield, OR": {
             "actions": [
                 {
@@ -31930,91 +32142,6 @@
                     "link": "https://www.stlouispark.org/home/showdocument?id=8214",
                     "reporting year": 2018,
                     "source": "City of St. Louis Park"
-                }
-            ]
-        },
-        "Stockholm": {
-            "actions": [
-                {
-                    "activity": "Stockholm's Building Efficiency Targets",
-                    "category": "Buildings",
-                    "description": "In addition to complying with national directives for energy efficiency in buildings, the City of Stockholm has created additional targets for building efficiency under its 2012-2015 Environment Program. The program encompasses six overarching quality registries that connect to the national environmental quality objectives. The quality registries are in turn broken down into concrete interim targets that describe how individual or joint municipal committees and/or boards are expected to contribute to the goals of their particular operations. Three of the six registries specify strategies for reducing emissions, increasing the energy efficiency, and climate-change resilience for new buildings .",
-                    "description quality": "curated",
-                    "link": "http://financingsustainablecities.org/solutions/119; https://www.government.se/contentassets/16d3b61d19084c3a96b3993e2edca229/energy-declarations-of-buildings; https://international.stockholm.se/globalassets/ovriga-bilder-och-filer/the-stockholm-environment-programme-2012-2015.pdf",
-                    "reporting year": 2010,
-                    "source": "Financing Sustainable Cities Initiative"
-                },
-                {
-                    "activity": "CHP KVV8",
-                    "category": "Clean Energy",
-                    "description": "Through its new combined heat and power plant, CHP KVV8, Stockholm is powering 90% of its district heating system with renewable energy. The biomass used to power the plant consists mostly of locally sourced forest residue and wood waste that has received Forest Stewardship Council certification. Flexible operations enable the plant to adjust the production of both heat and electricity to meet current demand, helping the city achieve energy efficiency gains. When fully operational in 2017, CHP KVV8 will provide 1,700 GWh of heat and 750 GWh of electricity annually, generating enough heat for 190,000 households.",
-                    "description quality": "curated",
-                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.fortum.com/about-us/our-company/our-energy-production/our-power-plants/vartaverket-chp-plant",
-                    "reporting year": "(blank)",
-                    "source": "ClimateRealityProject"
-                },
-                {
-                    "activity": "Stockholm's Energy Centre",
-                    "category": "Clean Energy",
-                    "description": "Founded in 2005, Stockholm's Energy Centre has provided expert support on the implementation of energy efficiency measures in municipal buildings, disseminating knowledge within the city, engaging with construction companies and checking progress against the 10% energy saving target set by the Stockholm Environment Programme 2012-2015. In 2015 the City Council decided on a new GHG emissions reduction target of 57% per capita, to be achieved by 2020 compared to 1990, and a new energy saving target of 10% over 2016-2019. These targets will be included in Stockholm Environment Programme 2016-2019. Stockholm\u2019s long-term goal is to become a \u201cfossil fuel free city\u201d by 2040.",
-                    "description quality": "curated",
-                    "link": "http://c40-production-images.s3.amazonaws.com/good_practice_briefings/images/8_C40_GPG_MBE.original.pdf?1456789018; https://hub.globalccsinstitute.com/publications/low-carbon-energy-2050-local-and-regional-impact-and-perspectives/33-se-city-stockholms-climate-initiatives",
-                    "reporting year": 2005,
-                    "source": "C40 Cities"
-                },
-                {
-                    "activity": "Stockholm Action Plan for Climate and Energy 2010\u20132020",
-                    "category": "Climate Action Plans",
-                    "description": "The goal of the plan is primarily to describe measures and conditions for achieving the climate and energy objectives of the Stockholm Environment Programme for 2012-2015. Apart from these short-term goals, the plan also embraces the wider goals of the City\u00b4s Vision 2030.",
-                    "description quality": "curated",
-                    "link": "http://www.stockholm.se/seap; http://projects.centralbaltic.eu/images/files/result_pdf/COMBAT_result2_Stockholm.pdf",
-                    "reporting year": "(blank)",
-                    "source": "Stockholm stads"
-                },
-                {
-                    "activity": "Stockholm Hybrid Buses",
-                    "category": "Transportation",
-                    "description": "In 2013 Stockholm\u2019s transit authority SL initiated a pilot project for 8 biodiesel-electric hybrid buses and two fast-charge stations (one for each terminus stop). Normally private operators are responsible for owning, maintaining, and operating buses according to contract, however the pilot project shares responsibility amongst the different stakeholders: the buses were supplied and maintained by Volvo and co-funded by the EU; SL supplied the bus depot; Siemens supplied the quick-charge stations, built and maintained by Vattenfall; Keolis was selected to operate the buses .",
-                    "description quality": "curated",
-                    "link": "http://financingsustainablecities.org/solutions/5; https://international.stockholm.se/globalassets/ovriga-bilder-och-filer/framtidsguiden_eng.pdf",
-                    "reporting year": 2015,
-                    "source": "Financing Sustainable Cities Initiative; City of Stockholm"
-                },
-                {
-                    "activity": "CC Zone",
-                    "category": "Transportation",
-                    "description": "Stockholm is Sweden's capital and largest city, Sweden's political, economic, cultural, transportation center and major ports. Its congestion charging policy was formally implemented in 2007, and the low emission zone policy was implemented in 1996. The Stockholm government decided that the best solution would be to install monitoring equipment on the bridges and form a circle around the inner city as the charging boundary. This boundary contains 18 toll gates, which are the gateways to the CC zone.",
-                    "description quality": "curated",
-                    "link": "https://www.lez-cc.info/copy-of-47",
-                    "reporting year": 2011,
-                    "source": "WRI China"
-                },
-                {
-                    "activity": "Hammarby Sj\u00f6stad",
-                    "category": "Urban Land Use & Sustainable Communities",
-                    "description": "Hammarby Sj\u00f6stad is a redevelopment project in southern Stockholm. The project was central to Stockholm\u2019s bid to host the 2004 Olympics, with Hammarby Sj\u00f6stad part of the ecological Olympic Village. Although the bid was unsuccessful, the site has since been converted from a run-down industrial area into a modern, environmentally sustainable, mixeduse district with good public transit connections.",
-                    "description quality": "curated",
-                    "link": "http://c40-production-images.s3.amazonaws.com/good_practice_briefings/images/10_C40_GPG_TOD.original.pdf?1456789146; http://www.hammarbysjostad.eu/the-story-in-brief/; http://large.stanford.edu/courses/2014/ph240/montgomery2/docs/HS_miljo_bok_eng_ny.pdf",
-                    "reporting year": "(blank)",
-                    "source": "C40 Cities"
-                },
-                {
-                    "activity": "Stockholm Royal Seaport (SRS)",
-                    "category": "Urban Land Use & Sustainable Communities",
-                    "description": "The Stockholm Royal Seaport (SRS) project is transforming the old industrial port area into a modern city environment for both residents and businesses. The City of Stockholm owns the site and controls the approvals, thus being in a position to drive the sustainability agenda. Accordingly, the city is using SRS as a living laboratory and model for the long-term aim of creating a zero fossil fuel Stockholm and adapting Sweden to the growing impacts of climate change. The project has a target for energy use of 55 kWh per square meter (about 10.8 square feet) per year, a target of 1.5 tCO2e per person by 2020, target to adopt measures to adapt to climate change, and a target to be fossil-fuel free by 2030. The project will provide 12,000 apartments and 35,000 work places combined with space for recreation, thereby creating a dynamic and vibrant living and working space.",
-                    "description quality": "curated",
-                    "link": "http://c40-production-images.s3.amazonaws.com/good_practice_briefings/images/3_C40_GPG_Climate_Positive_3_Mar.original.pdf?1457019377",
-                    "reporting year": 2010,
-                    "source": "C40 Cities"
-                },
-                {
-                    "activity": "Improving Biogas Refuelling Infrastructure",
-                    "category": "Clean Energy",
-                    "description": "Prior to measure implementation, lack of refuelling infrastructure for biogas-fuelled vehicles had been a major barrier to the promotion of this kind of cleaner vehicle among individuals and companies in Stockholm. The main goal of this measure was therefore to improve access to fuel stations by building four new facilities, raising the number of biofuel stations in Stockholm to nine. Three of the five existing biogas stations had been built between 1996 and 1997, and a further two added in 2004. One of them was used exclusively by Stockholm Transport for fuelling their biogas buses, and another was used by Stockholm Water Company. The market for biogas vehicles had not expanded as rapidly as expected, thus the owners of the filling stations, as well as the producers and distributors, found it hard to make a profit.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/improving-biogas-refuelling-infrastructure",
-                    "reporting year": 2004,
-                    "source": "CIVITAS"
                 }
             ]
         },
@@ -32054,6 +32181,15 @@
                     "link": "https://civitas.eu/measure/increased-safety-pedestrian-and-road-traffic",
                     "reporting year": 2013,
                     "source": "CIVITAS"
+                },
+                {
+                    "activity": "Setting up a Bicycle Rental System and Rickshaw Services",
+                    "category": "Transportation",
+                    "description": "To demonstrate the benefits of less car dependent lifestyles, through implementation of the bicycle rental scheme and launching rickshaws services. Measure was also aimed at improving the availability of bicycles in the city, in order to increase the number of total bicycle trips in and around the city and facilitating the accessibility of cycling for citizens and tourists.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/setting-bicycle-rental-system-and-rickshaw-services",
+                    "reporting year": 2013,
+                    "source": "CIVITAS"
                 }
             ]
         },
@@ -32067,28 +32203,6 @@
                     "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf",
                     "reporting year": 2016,
                     "source": "ClimateRealityProject"
-                }
-            ]
-        },
-        "Tallinn": {
-            "actions": [
-                {
-                    "activity": "Fare-Free Public Transport (FFPT)",
-                    "category": "Transportation",
-                    "description": "Estonia\u2019s capital recently launched Europe\u2019s largest initiative for FFPT to date. Since January 2013, Tallinn has provided free public transport in buses, trams, and trolleybuses to all city residents and all students in Estonia. This is an extension of a successful measure that allowed preschoolers, the elderly, and public servants to travel fare-free. The project curbs private car use, a growing trend in the country, and has contributed to a 7.5% annual decrease in congestion in the city center between 2011 and 2015. City residents now enjoy cleaner air, safer streets, and savings on transport costs",
-                    "description quality": "curated",
-                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.weforum.org/agenda/2018/06/estonia-is-making-public-transport-free/",
-                    "reporting year": 2013,
-                    "source": "ClimateRealityProject"
-                },
-                {
-                    "activity": "Improving Safety at Pedestrian Crossings and on Bicycle Tracks",
-                    "category": "Transportation",
-                    "description": "The aim of the measure was to find new and innovative approaches for improving traffic safety on crosswalks in Tallinn. For that reason an analysis on traffic accident statistics was done and citizens of Tallinn were asked to point out dangerous crosswalks in a survey. The main objectives of the measure are to: Improve safety at pedestrian crossings and on bicycle tracks; Decrease the number of accidents between vehicles and pedestrians or cyclists; Make pedestrians and cyclists feel safer in urban traffic; and Foster a safe-driving culture.",
-                    "description quality": "curated",
-                    "link": "https://civitas.eu/measure/improving-safety-pedestrian-crossings-and-bicycle-tracks",
-                    "reporting year": 2013,
-                    "source": "CIVITAS"
                 }
             ]
         },
@@ -32118,7 +32232,7 @@
                 }
             ]
         },
-        "Thessaloniki ": {
+        "Thessaloniki": {
             "actions": [
                 {
                     "activity": "Resilient Thessaloniki",
@@ -32154,6 +32268,145 @@
                     "link": "https://pulitzercenter.org/reporting/tijuana-new-bus-lines-rough-ride",
                     "reporting year": 2016,
                     "source": "Pulitzer Center"
+                }
+            ]
+        },
+        "Toronto": {
+            "actions": [
+                {
+                    "activity": "Eco-Roof Incentive Programme",
+                    "category": "Buildings",
+                    "description": "The City of Toronto launched the Eco-Roof Incentive Programme,\u00a0in 2009 to encourage the uptake of eco-roofs by building owners, make buildings more sustainable and promote the creation of green jobs. The Programme provides grant funding for building owners to install new roofing materials \u2013 green roofs with living plants and cool roofs that reflect solar heat \u2013 that provide environmental benefits and build resilience. Eligible buildings include existing residential, industrial, commercial and institutional buildings, as well as new buildings not subject to the Green Roof Bylaw (otherwise requiring green roofs on new construction over 2,000 m2).",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/c40-good-practice-guides-toronto-eco-roof-incentive-programme; https://www.toronto.ca/services-payments/water-environment/environmental-grants-incentives-2/green-your-roof/",
+                    "reporting year": 2009,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Toronto Green Standard (TGS)",
+                    "category": "Buildings",
+                    "description": "Toronto Green Standard (TGS) is a two-tier package of environmental performance measures designed to address Toronto\u2019s five major environmental challenges: air quality, climate change, water quality and efficiency, urban ecology, and solid waste. TGS ensures that all new developments in the city achieve high energy performance targets. Tier 1 compliance is required for all new construction in Toronto, while Tier 2 is a higher, voluntary level of performance, and compliant projects may be eligible for a partial refund of development expenses. To promote water use efficiency, Tier 1 requires buildings to retain at least the first five mm from each rainfall event, while Tier 2 requires the retention of at least 25 mm. Tier 1 requirements have been applied to more than 850 new construction projects, including 75 high-rise buildings, since the program launched, and 15% of new buildings are targeted for Tier 2 level compliance. This program has made Toronto a regional leader in energy efficiency measures. Currently, three municipalities outside of the City of Toronto have adopted the performance measures in their jurisdictions, and other municipalities are looking to do the same.",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/cities100-toronto-promoting-efficiency-in-new-developments; https://www.toronto.ca/city-government/planning-development/official-plan-guidelines/toronto-green-standard/toronto-green-standard-overview/; https://www.toronto.ca/wp-content/uploads/2017/11/9297-City-Planning-Toronto-Green-Standard-2017_MidHiRise_Standard.pdf",
+                    "reporting year": "(blank)",
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Tower Renewal Program",
+                    "category": "Buildings",
+                    "description": "With the Tower Renewal Program, Toronto is engaging residents in the renovation of its older apartment building stock through a suite of complementary initiatives that drive energy efficiency, social cohesion, and economic development. A key initiative under the program is Sustainable Towers, Engaging People (STEP), which supports property owners and building managers in benchmarking and incrementally improving the energy, water, waste, safety, operations, and community-building performance of their buildings. So far, the city has benchmarked 230 buildings and created customized action plans for 120, while STEP participants have realized energy savings of 5% to 20%.",
+                    "description quality": "curated",
+                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.toronto.ca/community-people/get-involved/community/tower-renewal/; http://towerrenewal.com/tower-renewal-in-2017/",
+                    "reporting year": 2017,
+                    "source": "ClimateRealityProject"
+                },
+                {
+                    "activity": "Enwave Energy Corporation",
+                    "category": "Clean Energy",
+                    "description": "The company\u2019s innovative deep lake-water cooling system uses cold water from Lake Ontario as its clean, renewable and reliable cooling source. Enwave\u2019s Deep Lake Water Cooling, integrated with the city\u2019s drinking water system, became operational in July 2004 and is the largest district cooling system from a renewable resource in North America, with 50 customers signed-on and 30 large commercial bank and data-centre buildings connected (3.2 million m2, 75,000 tons of refrigeration equivalent). It also enhances the supply of potable water with a clean water source, decreases electrical demand and consumption, increases employment opportunities, and helps businesses and Toronto residents reduce greenhouse gas emissions and improve outdoor air quality.\u00a0",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/c40-good-practice-guides-toronto-enwave-energy-corporation; http://enwave.com/locations/toronto/",
+                    "reporting year": 2004,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Energy Conservation and Demand Management Plan (ECDM)",
+                    "category": "Clean Energy",
+                    "description": "The plan takes a systematic approach to identifying energy conservation opportunities through classification of buildings and energy consumption benchmarking. The 10-year ECDM covers all city facilities, which alone spent over US$53 million on electricity and natural gas in 2012. The ECDM identifies opportunities with the potential to reduce energy consumption by up to 30% by 2019, leading to annual cost savings of over $17 million. This achieves an average payback period of less than 8 years through energy savings and utility company incentives.",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/c40-good-practice-guides-toronto-energy-conservation-demand-management-plan; https://www.toronto.ca/wp-content/uploads/2017/11/915c-City-of-Toronto-Energy-Conservation-Demand-Management-Plan-2014-2019-Section-1.pdf",
+                    "reporting year": 2014,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Keele Valley Landfill site",
+                    "category": "Clean Energy",
+                    "description": "A power plant was constructed on the site of Toronto\u2019s primary waste landfill to convert captured methane gas into electricity providing power for roughly 24,000 homes.",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/trash-to-cash-methane-capture-generates-3-4-million-annually; http://archive.iclei.org/documents/ANZ/CCP/Case_Studies/Renewable_Energy/CaseStudy42_LandfillGasToEnergy_Toronto.pdf",
+                    "reporting year": 1995,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Energy Conservation & Demand Management Plan",
+                    "category": "Clean Energy",
+                    "description": "In 2007, Toronto City Council adopted the \u201cClimate Change, Clean Air and Sustainable Energy Action Plan\u201d which committed to increasing energy efficiency at City facilities. In 2009, \u201cThe Power to Live Green\u201d report was also adopted by City Council, in which it proposed an 80% reduction in GHG emissions by 2050 compared to 1990 levels. The most recent and targeted Energy Conservation and Demand Management Plan (ECDM) was adopted in July 2014. The plan takes a systematic approach to identifying energy conservation opportunities through classification of buildings and energy consumption benchmarking. The 10-year ECDM covers all city facilities, which alone spent over US$53 million on electricity and natural gas in 2012. The ECDM identifies opportunities with the potential to reduce energy consumption by up to 30% by 2019, leading to annual cost savings of over $17 million. This achieves an average payback period of less than 8 years through energy savings and utility company incentives.",
+                    "description quality": "curated",
+                    "link": "http://c40-production-images.s3.amazonaws.com/good_practice_briefings/images/8_C40_GPG_MBE.original.pdf?1456789018; https://www.toronto.ca/wp-content/uploads/2017/11/915c-City-of-Toronto-Energy-Conservation-Demand-Management-Plan-2014-2019-Section-1.pdf",
+                    "reporting year": 2007,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "TransformTO",
+                    "category": "Climate Action Plans",
+                    "description": "Toronto is picking up the pace when it comes to saving the planet. Building on the success of the city\u2019s first climate action plan and aiming to accelerate action, the city\u2019s council initiated TransformTO in 2015. The action plan recommends cross-sector targets, including 75% of energy to be renewable and 100% of transportation to use zero-carbon energy by 2050; 100% of new buildings to be near-zero emissions by 2030; and 100% of existing buildings retrofitted by 2050. Toronto seeks to not only address climate change mitigation with these goals, but equally to focus on adapting the city, making it resilient against future impacts. When implemented, these accelerated actions are projected to reduce greenhouse gas emissions by up to 857,000 metric tons by 2020. TransformTO is Toronto\u2019s new and ambitious climate action strategy. TransformTO will reduce local greenhouse gas emissions, and improve our health, grow our economy, and improve social equity. \nIn July 2017 City Council unanimously approved a set of long-term, low-carbon goals, and strategies to reach them.",
+                    "description quality": "curated",
+                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.toronto.ca/services-payments/water-environment/environmentally-friendly-city-initiatives/transformto/transformto-climate-action-strategy/; https://www.toronto.ca/wp-content/uploads/2017/10/99b9-TransformTO-Climate-Action-for-a-Healthy-Equitable-and-Prosperous-Toronto-Report-2-The-Pathway-to-a-Low-Carbon-Future-Staff-Report-April-2017.pdf",
+                    "reporting year": 2017,
+                    "source": "ClimateRealityProject"
+                },
+                {
+                    "activity": "Home Energy Loan Program (HELP) and High-Rise Retrofit Improvement Support Program (Hi-RIS)",
+                    "category": "Finance",
+                    "description": "In 2014, Toronto launched two innovative loan programs: Home Energy Loan Program (HELP) and High-Rise Retrofit Improvement Support Program (Hi-RIS). Offered with no upfront costs and at a low interest rate, the loans target energy efficiency and water conservation upgrades in single-family houses and rental apartment buildings. Crucially, the cost of improvements is repaid over time via fixed installments linked to the property tax bill, meaning the loan is tied to the land not the owner, in case of sale. The program also has equity considerations, as owners\u2019 eligibility is not dependent on traditional credit ratings but their rate of municipality repayment. So far, $5.4 million in low-interest loans have been committed to 111 energy projects. The programs\u2019 \u201cone-window\u201d service makes the process as easy and streamlined as possible for participants, allowing access to utility incentives, energy advisors, and customer support in addition to financing. Furthermore, HELP and Hi-RIS are self-sustaining financially and do not impact the city\u2019s taxpayers, as about 60% of the operating budget has been raised from third-party sources and the remainder is recovered directly from program participants through an administrative fee.",
+                    "description quality": "curated",
+                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.toronto.ca/legdocs/mmis/2018/pe/bgrd/backgroundfile-114375.pdf",
+                    "reporting year": 2014,
+                    "source": "ClimateRealityProject"
+                },
+                {
+                    "activity": "Toronto Atmospheric Fund (TAF)\u00a0",
+                    "category": "Finance",
+                    "description": "The Toronto Atmospheric Fund (TAF) has thus far invested CAD 60 million (USD 45 million) in low-carbon projects, supporting 152 Mt of GHG reduction opportunities, CAD 55 million (USD 41 million) in energy savings for the City of Toronto, and the incubation of several pace-setting projects that have helped achieve significant community-wide GHG reductions. TAF also attracts additional funding for various projects from governmental agencies, foundations, and private sector corporations.\u00a0",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/c40-good-practice-guides-toronto-toronto-atmospheric-fund; http://taf.ca/about-us/#our_mission",
+                    "reporting year": 1991,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Toronto Hybrid Bus",
+                    "category": "Transportation",
+                    "description": "The first purchase of hybrids came after a representative from NYC visited Toronto in 2004, to represent their results and plans to expand their fleet of Daimler Buses beyond 1600. Toronto Transit Commission (TTC) decided to purchase 150 buses for delivery in 2006, and by 2008 the TTC hybrid fleet was over 568 buses. Shortly after the lead acid batteries began failing, and upon inspection by Daimler Bus battery specialists, they found that the batteries had reached the end of their life after only 1 to 1 \u00bd years of operation. Additionally, the predicted emissions reductions were higher than actual results: Predicted: (37% GHG, 30-50% PM, 30-50% NO, 5-6 decibel reduction, and 20-30% less fuel use) Actual: only 10% reduced fuel use, 10% GHG emissions reduced. Concerned with liability issues, TTC moved to hold future shipments of hybrid buses in 2008.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/31; https://www.toronto.ca/legdocs/mmis/2016/gm/bgrd/backgroundfile-95665.pdf",
+                    "reporting year": 2006,
+                    "source": "Financing Sustainable Cities Initiative; The City of Toronto"
+                },
+                {
+                    "activity": "Sustainable Neighbourhood Retrofit Action Plan (SNAP)",
+                    "category": "Buildings",
+                    "description": "Toronto\u2019s Sustainable Neighbourhood Retrofit Action Plan (SNAP) is a locally tailored home retrofit program reaching both homeowners and renters with building upgrades and community enhancement initiatives. Assisting residents from planning to implementation of projects, SNAP simultaneously targets energy conservation, urban forest enhancement, water conservation, and stormwater management, as well as local food production in order to create more resilient neighborhoods. In the Black Creek neighborhood, a community of 25,000 people which was home to one of SNAP\u2019s six pilot projects, positive results have already been observed; 88 % of participants have undertaken at least one retrofit action since the program launched in 2012. One SNAP program underway in Black Creek, Harvest the Rain, has distributed 217 rain barrels to residents in an effort to protect against basement flooding while using the collected water to support vegetable gardens and tree planting. City-wide, SNAP measures are expected to reduce stormwater runoff and pollutants from private lots by 30 %, expand urban forest cover by 8 %, and reduce electricity use by 10 %.",
+                    "description quality": "curated",
+                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://trca.ca/conservation/sustainable-neighbourhoods/;https://www.c40.org/case_studies/cities100-toronto-neighborhood-renewal-boosts-climate-resilience",
+                    "reporting year": 2012,
+                    "source": "ClimateRealityProject"
+                },
+                {
+                    "activity": "Port Lands Neighbourhoods",
+                    "category": "Urban Land Use & Sustainable Communities",
+                    "description": "The naturalization of the Don River mouth is the centerpiece of the plan and will provide flood protection to enable the revitalization of the Port Lands Neighbourhoods and create a new terrestrial and aquatic habitat in Toronto\u2019s waterfront. The plan is to transform the Port Lands Neighbourhoods into a resilient and sustainable community with 12,500 homes, 279,000 m2 of commercial and retail space, and 53 hectares of parks and public spaces. The sustainability focus includes implementing aggressive energy and transportation strategies such as targets for energy use intensity and measures to encourage active mobility by building bike-share facilities and designated lanes for pedestrians and bikes.",
+                    "description quality": "curated",
+                    "link": "https://www.c40.org/case_studies/cities100-toronto-de-contamina-tion-begets-a-new-green-community; https://www.toronto.ca/legdocs/mmis/2017/pg/bgrd/backgroundfile-107844.pdf",
+                    "reporting year": 2017,
+                    "source": "C40 Cities"
+                },
+                {
+                    "activity": "Long Term Waste Management Strategy",
+                    "category": "Waste",
+                    "description": "Two years after its launch, Toronto\u2019s Long Term Waste Management Strategy\u2019s overall focus is to divert as much waste as possible from landfill. To do so, the strategy recommends waste reduction, reuse, recycling, recovery, and residual disposal policies and programs \u2013 also known as the \u201c5Rs\u201d \u2013 that are environmentally sustainable, socially acceptable, and cost-effective. The strategy will assist Canada\u2019s most populous city in achieving a 70% residential diversion rate. By working with community partners and leveraging existing social infrastructure, Toronto aims to divert an additional 200,000 metric tons of waste from landfill by 2026.",
+                    "description quality": "curated",
+                    "link": "https://www.climaterealityproject.org/sites/climaterealityproject.org/files/CITIES100_2016.pdf; https://www.toronto.ca/services-payments/recycling-organics-garbage/long-term-waste-strategy/overview/",
+                    "reporting year": 2016,
+                    "source": "ClimateRealityProject"
+                },
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/98",
+                    "reporting year": 2005,
+                    "source": "Financing Sustainable Cities Initiative"
                 }
             ]
         },
@@ -32222,6 +32475,19 @@
                 }
             ]
         },
+        "Vaughan": {
+            "actions": [
+                {
+                    "activity": "Viva BRT",
+                    "category": "Transportation",
+                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area.",
+                    "description quality": "curated",
+                    "link": "http://financingsustainablecities.org/solutions/97",
+                    "reporting year": 2005,
+                    "source": "Financing Sustainable Cities Initiative"
+                }
+            ]
+        },
         "Vejle": {
             "actions": [
                 {
@@ -32235,7 +32501,7 @@
                 }
             ]
         },
-        "Venice ": {
+        "Venice": {
             "actions": [
                 {
                     "activity": "The Mose System",
@@ -32254,6 +32520,15 @@
                     "link": "https://www.c40.org/case_studies/venice-integrated-mobility-plan",
                     "reporting year": 2008,
                     "source": "C40 Cities"
+                },
+                {
+                    "activity": "Passenger-friendly Waterbuses with Low Environmental Impact",
+                    "category": "Transportation",
+                    "description": "Within the MOBILIS project, 18 new waterbuses (motoscafi) with a lower environmental impact were put into service to improve and strengthen strategic waterborne public transport lines that circumnavigate the historic city of Venice. The new waterbuses were accessible to disabled users, allowing them to reach their destination directly. The new boats are wider and offer a larger boarding space for wheelchairs, with a smaller height different between the docks and boarding area. These improvements offer better accessibility for people with disabilities and more comfortable, safer travel conditions. With the introduction of the new waterbuses, disabled passengers save more than two hours in winter and nearly one hour in summer on the journey to Murano Island from the bus terminal in Piazzale Roma. The new waterbuses also reduce the risk of environmental damage. Research carried out by the ACTV technical office in collaboration with the University of Trieste led to   improvements in the shape of the hull and in the boats\u2019 hydrodynamic performance, with a reduction in motion resistance of about 23 percent (at 20 km standard speed) and consequently lower wave resistance. There was also a considerable reduction in noise: at most points in the passenger area the reduction exceeds 10 db, thus passengers are able clearly to perceive the improvement.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/introducing-passenger-friendly-waterbuses-low-environmental-impact",
+                    "reporting year": 2005,
+                    "source": "CIVITAS"
                 }
             ]
         },
@@ -32270,7 +32545,7 @@
                 }
             ]
         },
-        "Vitoria-Gasteiz\u00a0": {
+        "Vitoria-Gasteiz": {
             "actions": [
                 {
                     "activity": "4th Generation Public Bike System",
@@ -32279,6 +32554,15 @@
                     "description quality": "curated",
                     "link": "http://civitas.eu/measure/4th-generation-public-bike-system",
                     "reporting year": 2013,
+                    "source": "CIVITAS"
+                },
+                {
+                    "activity": "Pedestrian and Bicycle Lane Network",
+                    "category": "Transportation",
+                    "description": "The objective of this measure was to create a new mobility framework for cyclists and pedestrians in the city of Vitoria-Gasteiz, based on the superblocks model (see measure 05.01 to know more about superblocks). Specifically, the objectives were: To consolidate a continuous bicycle network where 95% of the population will live at a distance shorter than 250 meters; To consolidate a new pedestrian network that will minimize the frictions between pedestrian and private cars and will connect on foot the main points of interest of the city; To implement new bicycle and pedestrian networks that will be coherent with the superblock scheme proposed in the Sustainable Mobility and Public Space Plan of Vitoria-Gasteiz.",
+                    "description quality": "curated",
+                    "link": "https://civitas.eu/measure/pedestrian-and-bicycle-lane-network",
+                    "reporting year": 2009,
                     "source": "CIVITAS"
                 }
             ]
@@ -32429,19 +32713,6 @@
                     "description quality": "curated",
                     "link": "http://financingsustainablecities.org/solutions/106",
                     "reporting year": 2015,
-                    "source": "Financing Sustainable Cities Initiative"
-                }
-            ]
-        },
-        "York Region": {
-            "actions": [
-                {
-                    "activity": "Viva BRT",
-                    "category": "Transportation",
-                    "description": "Introducing a transportation system to reduce congestion and loss of green space in a rapidly growing low-density area",
-                    "description quality": "curated",
-                    "link": "http://financingsustainablecities.org/solutions/96",
-                    "reporting year": 2005,
                     "source": "Financing Sustainable Cities Initiative"
                 }
             ]

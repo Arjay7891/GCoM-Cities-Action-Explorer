@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+from pathlib import Path
 
 ## only needed for plots:
 # import seaborn as sns
@@ -26,6 +27,9 @@ feature_scaling = ["GDP", "Population", "GDP_per_cap_method1",
 # ID of city to run tests on
 # check gcom_cities file for id's
 test_city = 'BR0003'
+
+# set data folder, default is local folder in which the script is located
+data_folder = Path('')
 
 ### utilites
 # utility to find the list of actions from the CDP actions data base with a given gcom ID
@@ -85,7 +89,7 @@ def findListOfCuratedActionsGCOM(actions_df, gcomId):
 
 def findListOfCuratedActionsNonGCOM(actions_df, cityName):
     city_actions_df = actions_df.loc[actions_df['City'].str.strip() ==
-                                     cityName.str.strip()].reset_index(drop=True)
+                                     cityName.strip()].reset_index(drop=True)
     return findListOfCuratedActions(city_actions_df)
 
 def distance(city1_dict, city2_dict):
@@ -109,14 +113,16 @@ def similarity(city1_dict, city2_dict):
 
 ### set up categories
 # read category matching from file
-categories = pd.read_excel(r"reclassification_files\cdp_sector_reclass.xlsx", encoding='latin-1').fillna('(blank)')
+reclass_file = data_folder / "reclassification_files/cdp_sector_reclass.xlsx"
+categories = pd.read_excel(reclass_file, encoding='latin-1').fillna('(blank)')
 # build dict
 categoryDict = dict(zip(list(categories['CDP Sector']), list(categories['reclass_sector'])))
 # print(categoryDict)
 
 ### prepare dictionary of GCoM cities
 # read gcom cities into pandas dataframe
-cities = pd.read_csv(r"input_data\gcom_cities.csv", encoding="utf-8").fillna('(blank)')
+cities_file = data_folder / "input_data/gcom_cities.csv"
+cities = pd.read_csv(cities_file, encoding="utf-8").fillna('(blank)')
 
 # select cities with population > pop_cutoff, reset index:
 cities = cities.loc[cities['Population'] > pop_cutoff].reset_index(drop=True)
@@ -156,7 +162,8 @@ for index, row in cities.iterrows():
 ### prepare CDP cities for matching
 
 # read cdp actions into pandas dataframe
-actions_df_cdp = pd.read_csv(r"input_data\Actions_cdp_2012-2017.csv",
+cdp_actions_file = data_folder / "input_data/Actions_cdp_2012-2017.csv"
+actions_df_cdp = pd.read_csv(cdp_actions_file,
                          encoding="utf-8").fillna('(blank)')
 
 # change USA to United States of America
@@ -169,7 +176,8 @@ cdp_cities = set(actions_df_cdp['City'].str.strip())
 # print(cdp_cities)
 
 ### read in curated list of actions
-actions_df_curated = pd.read_excel(r"input_data\Actions_db2.xlsx",
+curated_actions_file = data_folder / "input_data/Actions_db2.xlsx"
+actions_df_curated = pd.read_excel(curated_actions_file,
                          encoding="utf-8").fillna('(blank)')
 
 # find actions of cities that aren't in the GCOM cities
@@ -223,14 +231,17 @@ citiesDict['non-GCOM_cities'] = non_GCOM_dict
 bigCitiesDict['non-GCOM_cities'] = non_GCOM_dict
 
 # save data in json files
-with open('output\cities_data.json', 'w') as f:
+output_data_file = data_folder / 'output/cities_data.json'
+with open(output_data_file, 'w') as f:
     json.dump(citiesDict, f) #, sort_keys=True, indent=4)
 
-with open(r'output\big_cities_data.json', 'w') as f:
+big_cities_output_file = data_folder / 'output/big_cities_data.json'
+with open(big_cities_output_file, 'w') as f:
     json.dump(bigCitiesDict, f, sort_keys=True, indent=4)
 
 ### build general resources data base
-general_resources = pd.read_excel(r"input_data\Guides for Action Explorer.xlsx", encoding='latin-1').fillna('(blank)')
+general_resource_file = data_folder / "input_data/Guides for Action Explorer.xlsx"
+general_resources = pd.read_excel(general_resource_file, encoding='latin-1').fillna('(blank)')
 general_resource_keys = list(general_resources)
 general_resource_dict = {}
 for index, row in general_resources.iterrows():
@@ -238,7 +249,8 @@ for index, row in general_resources.iterrows():
     general_resource_dict[index] = dict(zip(general_resource_keys, general_resource_values))
 
 # print(general_resource_dict)
-with open(r'output\general_resources.json', 'w') as f:
+general_resource_output = data_folder / 'output/general_resources.json'
+with open(general_resource_output, 'w') as f:
     json.dump(general_resource_dict, f, sort_keys=True, indent=4)
 
 
